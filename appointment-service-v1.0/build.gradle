@@ -43,6 +43,8 @@ dependencies {
 	compile name: "wljmsclient"
 	compile name: "wlthint3client"
 	
+	compile name: "tools"
+	
 	//jee7
 	providedCompile group: 'javax', name: 'javaee-api', version:'7.0'
 
