@@ -5,6 +5,8 @@ import rtl.sod.corp.sche.whmg.appointment.rest.RestConstants;
 
 import org.apache.log4j.MDC;
 
+import java.util.Map;
+
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
@@ -19,6 +21,13 @@ public class LoggingInterceptor {
 		log.debug("Started the interceptor.");
 		MDC.put(RestConstants.SERVICE_REF_MDC, ctx.getMethod().getName());
 		long tsStart = System.currentTimeMillis();
+		
+	
+		
+		for (Map.Entry<String, Object> entry : ctx.getContextData().entrySet()) {
+			log.info("Item : " + entry.getKey() + " Count : " + entry.getValue());
+		}
+		
 		try {
 			return ctx.proceed();
 		} finally {
@@ -26,6 +35,7 @@ public class LoggingInterceptor {
 			log.debug("txEpd=" + String.valueOf(tsStop - tsStart));
 			MDC.remove(RestConstants.SERVICE_REF_MDC);
 			log.debug("Ended the interceptor.");
+			
 		}
 	}
 }

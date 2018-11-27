@@ -55,7 +55,7 @@ public class AppointmentRestApiService {
 		try {
 			e2e.setE2EContext(headers);
 		} catch (E2EHelperNotFoundException e) {
-			log.info("Error E2EContext setting headers");
+			log.error("Error E2EContext setting headers");
 			
 		}
 		e2e.setServiceRef("Appointment");
@@ -67,7 +67,7 @@ public class AppointmentRestApiService {
 			}catch(Exception ex)
 			{
 	
-				log.info("Request Appointment Error!", request.getAppointmentReq().getHeader().getReferenceID());
+				log.error("Request Appointment Error!", request.getAppointmentReq().getHeader().getReferenceID());
 				return  Response.ok().entity(this.buildErrorRes(ex.getLocalizedMessage())).build();
 			}
 
