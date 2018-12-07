@@ -1,6 +1,7 @@
 package rtl.sod.corp.sche.whmg.appointment.client.wls.service;
 
 import java.util.Map;
+import javax.enterprise.inject.Default;
 
 
 import rtl.sod.corp.sche.whmg.appointment.client.AppointmentClient;
@@ -12,6 +13,7 @@ import rtl.sod.corp.sche.whmg.appointment.tools.AppointmentUpdateTools;
 import rtl.sod.corp.sche.whmg.appointment.tools.xml.XmlConvert;
 import lombok.extern.slf4j.Slf4j;
 
+@Default
 @Slf4j
 public class WlsAppointmentClient implements AppointmentClient {
 

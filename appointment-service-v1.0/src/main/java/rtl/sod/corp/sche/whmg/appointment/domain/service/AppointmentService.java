@@ -6,9 +6,12 @@ import rtl.sod.corp.sche.whmg.appointment.client.wls.service.WlsAppointmentClien
 import rtl.sod.corp.sche.whmg.appointment.domain.message.Message;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentReq;
 
+import javax.inject.Inject;
+
 public class AppointmentService {
 	
-	private  AppointmentClient client = new WlsAppointmentClient();
+	@Inject
+	private  AppointmentClient client;
 
 	public AppointmentService() {
 	
