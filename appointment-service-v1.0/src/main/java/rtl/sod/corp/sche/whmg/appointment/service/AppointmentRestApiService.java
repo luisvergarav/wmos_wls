@@ -4,6 +4,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Map;
 
+import javax.inject.Inject;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.Consumes;
@@ -26,9 +27,10 @@ import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import lombok.extern.slf4j.Slf4j;
+import rtl.sod.corp.sche.whmg.appointment.application.client.AppointmentServiceImpl;
 import rtl.sod.corp.sche.whmg.appointment.domain.APIResponse;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentRequestWrapper;
-import rtl.sod.corp.sche.whmg.appointment.domain.service.AppointmentService;
+import rtl.sod.corp.sche.whmg.appointment.domain.ports.messaging.AppointmentService;
 import rtl.sod.corp.sche.whmg.appointment.rest.RestConstants;
 import rtl.sod.corp.sche.whmg.appointment.rest.interceptor.Logged;
 
@@ -42,7 +44,8 @@ public class AppointmentRestApiService {
 	private transient HttpHeaders headers;
 
 
-	AppointmentService service = new AppointmentService();
+	@Inject
+	AppointmentService service;
 
 	@PUT
 	@Logged
