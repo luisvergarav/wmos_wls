@@ -17,20 +17,17 @@ import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import org.slf4j.MDC;
-
 import corp.common.e2e.core.E2EContext;
 import corp.common.e2e.core.E2EHelperNotFoundException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
 import lombok.extern.slf4j.Slf4j;
-import rtl.sod.corp.sche.whmg.appointment.application.client.AppointmentServiceImpl;
+import rtl.sod.corp.sche.whmg.appointment.application.adapters.NotifyAppointmentCommandBus;
+import rtl.sod.corp.sche.whmg.appointment.application.adapters.NotifyAppointmentImpl;
+import rtl.sod.corp.sche.whmg.appointment.application.ports.NotifyAppointmentCommand;
 import rtl.sod.corp.sche.whmg.appointment.domain.APIResponse;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentRequestWrapper;
-import rtl.sod.corp.sche.whmg.appointment.domain.ports.messaging.AppointmentService;
 import rtl.sod.corp.sche.whmg.appointment.rest.RestConstants;
 import rtl.sod.corp.sche.whmg.appointment.rest.interceptor.Logged;
 
@@ -44,9 +41,8 @@ public class AppointmentRestApiService {
 	private transient HttpHeaders headers;
 
 
-	@Inject
-	AppointmentService service;
-
+	
+	
 	@PUT
 	@Logged
 	@Path("/api/wmos/v1.0/appointment")
@@ -65,7 +61,13 @@ public class AppointmentRestApiService {
 
 			log.info("appointment request.", request);
 			try{
-				service.notify(request.getAppointmentReq());
+				NotifyAppointmentCommandBus cmdBus = new NotifyAppointmentCommandBus();
+				
+				
+				NotifyAppointmentCommand cmd = new NotifyAppointmentImpl(request.getAppointmentReq());
+				
+				cmdBus.execute(cmd);
+				
 				log.info("Request Appointment successful!", request.getAppointmentReq().getHeader().getReferenceID());
 			}catch(Exception ex)
 			{

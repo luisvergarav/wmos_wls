@@ -3,7 +3,7 @@ package rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.wls;
 import java.util.Map;
 import javax.enterprise.inject.Default;
 
-import rtl.sod.corp.sche.whmg.appointment.application.client.AppointmentClient;
+import rtl.sod.corp.sche.whmg.appointment.application.ports.AppointmentClient;
 import rtl.sod.corp.sche.whmg.appointment.domain.message.Message;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentReq;
 import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.tools.JMSMessageTools;

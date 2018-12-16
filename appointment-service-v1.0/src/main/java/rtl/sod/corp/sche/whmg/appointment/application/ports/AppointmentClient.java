@@ -1,4 +1,4 @@
-package rtl.sod.corp.sche.whmg.appointment.application.client;
+package rtl.sod.corp.sche.whmg.appointment.application.ports;
 
 import rtl.sod.corp.sche.whmg.appointment.domain.message.Message;
 
