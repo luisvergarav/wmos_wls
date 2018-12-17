@@ -1,4 +1,4 @@
-package rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.xml;
+package rtl.sod.corp.sche.whmg.appointment.infraestructure.tools.xml;
 
 
 
@@ -26,7 +26,7 @@ import org.xml.sax.SAXException;
 
 import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.http.rest.RestAPPConfig;
 import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.http.rest.RestConstants;
-import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.exception.PropertiesException;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.exception.PropertiesException;
 
 /**
  * Clase utilizada para realizar la transformacion

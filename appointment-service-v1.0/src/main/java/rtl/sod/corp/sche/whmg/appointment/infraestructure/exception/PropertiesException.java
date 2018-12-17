@@ -1,4 +1,4 @@
-package rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.exception;
+package rtl.sod.corp.sche.whmg.appointment.infraestructure.exception;
 
 /**
  * Excepcion de propiedades.

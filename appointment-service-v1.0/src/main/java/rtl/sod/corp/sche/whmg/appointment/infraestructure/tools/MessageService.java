@@ -1,13 +1,13 @@
-package rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools;
+package rtl.sod.corp.sche.whmg.appointment.infraestructure.tools;
 
 
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 
 import lombok.extern.slf4j.Slf4j;
-import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.exception.PropertiesException;
-import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.xml.XmlTransformation;
-import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.xml.XmlValidator;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.exception.PropertiesException;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.tools.xml.XmlTransformation;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.tools.xml.XmlValidator;
 
 
 

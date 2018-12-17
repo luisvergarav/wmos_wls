@@ -5,7 +5,7 @@ import javax.enterprise.inject.Default;
 
 import rtl.sod.corp.sche.whmg.appointment.application.ports.AppointmentClient;
 import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.tools.JMSMessageTools;
-import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.MessageService;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.tools.MessageService;
 import lombok.extern.slf4j.Slf4j;
 
 @Default

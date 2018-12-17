@@ -1,4 +1,4 @@
-package rtl.sod.corp.sche.whmg.appointment.application.adapters.tools;
+package rtl.sod.corp.sche.whmg.appointment.application.tools;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package rtl.sod.corp.sche.whmg.appointment.application.adapters.tools.xml;
+package rtl.sod.corp.sche.whmg.appointment.application.tools.xml;
 
 
 import java.io.StringWriter;

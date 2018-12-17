@@ -5,10 +5,10 @@ import java.util.Map;
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 
-import rtl.sod.corp.sche.whmg.appointment.application.adapters.tools.AppointmentUpdateTools;
-import rtl.sod.corp.sche.whmg.appointment.application.adapters.tools.xml.XmlConvert;
 import rtl.sod.corp.sche.whmg.appointment.application.ports.AppointmentClient;
 import rtl.sod.corp.sche.whmg.appointment.application.ports.NotifyAppointmentCommand;
+import rtl.sod.corp.sche.whmg.appointment.application.tools.AppointmentUpdateTools;
+import rtl.sod.corp.sche.whmg.appointment.application.tools.xml.XmlConvert;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentReq;
 import rtl.sod.corp.sche.whmg.appointment.domain.ports.Command;
 import rtl.sod.corp.sche.whmg.appointment.domain.ports.Handler;
