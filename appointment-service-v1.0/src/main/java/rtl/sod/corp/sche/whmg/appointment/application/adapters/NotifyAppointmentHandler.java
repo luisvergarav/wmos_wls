@@ -1,11 +1,14 @@
 package rtl.sod.corp.sche.whmg.appointment.application.adapters;
 
+import java.util.Map;
+
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 
+import rtl.sod.corp.sche.whmg.appointment.application.adapters.tools.AppointmentUpdateTools;
+import rtl.sod.corp.sche.whmg.appointment.application.adapters.tools.xml.XmlConvert;
 import rtl.sod.corp.sche.whmg.appointment.application.ports.AppointmentClient;
 import rtl.sod.corp.sche.whmg.appointment.application.ports.NotifyAppointmentCommand;
-import rtl.sod.corp.sche.whmg.appointment.domain.message.Message;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentReq;
 import rtl.sod.corp.sche.whmg.appointment.domain.ports.Command;
 import rtl.sod.corp.sche.whmg.appointment.domain.ports.Handler;
@@ -25,10 +28,19 @@ public class NotifyAppointmentHandler implements Handler {
 	public void handle(Command cmd) throws Exception {
 
 	
-			Message<AppointmentReq> message = new Message<AppointmentReq>();
+		
+			
 			NotifyAppointmentCommand<AppointmentReq> command  = (NotifyAppointmentCommand<AppointmentReq>)cmd;
-			message.setPayload(command.getPayload());
-			client.notify(message);
+			
+			
+			XmlConvert<AppointmentReq> convert = new XmlConvert<AppointmentReq>();
+			
+			String requestJMSMessage = convert.convert((AppointmentReq)command.getPayload());
+
+			Map<String, String> jmsHeaders = AppointmentUpdateTools.buildOrderUpdateJmsHeaders((AppointmentReq)command.getPayload());
+
+			//message.setPayload(command.getPayload());
+			client.notify(requestJMSMessage, jmsHeaders);
 		
 		
 		
