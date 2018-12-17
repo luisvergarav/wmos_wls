@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.Synchronized;
 import lombok.extern.slf4j.Slf4j;
-import rtl.sod.corp.sche.whmg.appointment.exception.ServerConnectionException;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.exception.ServerConnectionException;
 import weblogic.jms.client.WLConnectionImpl;
 import java.util.Properties;
 import javax.jms.Connection;

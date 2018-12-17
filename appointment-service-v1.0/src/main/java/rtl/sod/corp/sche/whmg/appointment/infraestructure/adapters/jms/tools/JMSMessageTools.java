@@ -10,10 +10,10 @@ import javax.jms.TextMessage;
 import corp.common.e2e.core.E2EContext;
 import corp.common.e2e.core.E2EHelperNotFoundException;
 import lombok.extern.slf4j.Slf4j;
-import rtl.sod.corp.sche.whmg.appointment.exception.MDWRestException;
-import rtl.sod.corp.sche.whmg.appointment.exception.ServerConnectionException;
-import rtl.sod.corp.sche.whmg.appointment.rest.RestAPPConfig;
-import rtl.sod.corp.sche.whmg.appointment.rest.RestConstants;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.http.rest.RestAPPConfig;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.http.rest.RestConstants;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.exception.JmsException;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.exception.ServerConnectionException;
 
 /**
  * this is tools to build JMS message and Send the message to JMS
@@ -50,7 +50,7 @@ public class JMSMessageTools {
 
 
 
-	public static void sendJMS(Map<String, String> pJmsHeaders, String pMessage) throws MDWRestException {
+	public static void sendJMS(Map<String, String> pJmsHeaders, String pMessage) throws JmsException {
 		JMSConnection connection = new JMSConnection();
 		try {
 			connection.init(getTopicDefinition());
@@ -79,13 +79,13 @@ public class JMSMessageTools {
 			connection.commit();
 		} catch (JMSException | ServerConnectionException e) {
 			log.error("JMSConnection published get exception for message {} !", e, pMessage);
-			throw new MDWRestException("Send JMS failed", e);
+			throw new JmsException("Send JMS failed", e);
 		} finally {
 			try {
 				connection.stop();
 			} catch (ServerConnectionException e) {
 				log.error("JMSConnection stoped failed for message {} !", e, pMessage);
-				throw new MDWRestException("Send JMS failed", e);
+				throw new JmsException("Send JMS failed", e);
 			}
 		}
 	}

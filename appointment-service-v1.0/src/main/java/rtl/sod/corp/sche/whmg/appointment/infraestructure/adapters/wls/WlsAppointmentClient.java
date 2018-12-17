@@ -7,9 +7,9 @@ import rtl.sod.corp.sche.whmg.appointment.application.ports.AppointmentClient;
 import rtl.sod.corp.sche.whmg.appointment.domain.message.Message;
 import rtl.sod.corp.sche.whmg.appointment.domain.model.AppointmentReq;
 import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.tools.JMSMessageTools;
-import rtl.sod.corp.sche.whmg.appointment.tools.MessageService;
-import rtl.sod.corp.sche.whmg.appointment.tools.AppointmentUpdateTools;
-import rtl.sod.corp.sche.whmg.appointment.tools.xml.XmlConvert;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.AppointmentUpdateTools;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.MessageService;
+import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.tools.xml.XmlConvert;
 import lombok.extern.slf4j.Slf4j;
 
 @Default
