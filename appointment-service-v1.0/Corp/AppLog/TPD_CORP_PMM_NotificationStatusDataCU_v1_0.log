@@ -1,0 +1,2 @@
+2018-01-22 13:47:33,909 INFO  corp.tpd.pmm.notificationstatus.data.cu.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_PMM_NotificationStatusDataCU_v1_0_log4j.properties OK.
+2018-01-22 13:47:34,182 ERROR corp.tpd.pmm.notificationstatus.data.cu.model.business.NotificationStatusPmmDataBean - [sendBeanInfoToError - PE] Unable to resolve 'jms.fabric.queue.TPD_PE_OMS_IN'. Resolved 'jms.fabric.queue'

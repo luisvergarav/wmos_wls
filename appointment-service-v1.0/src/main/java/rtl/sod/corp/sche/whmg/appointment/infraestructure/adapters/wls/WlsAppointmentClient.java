@@ -23,7 +23,9 @@ public class WlsAppointmentClient implements AppointmentClient {
 
 		
 		log.info("Sending Appointment...! " + requestXML,requestXML);
-		JMSMessageTools.sendJMS(jmsHeaders, requestXML);
+		
+		JMSMessageTools tools = new JMSMessageTools();
+		tools.sendJMS(jmsHeaders, requestXML);
 
 		
 

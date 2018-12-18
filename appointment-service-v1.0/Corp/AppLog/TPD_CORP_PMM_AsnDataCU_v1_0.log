@@ -1,0 +1,2 @@
+2018-01-22 12:43:48,338 INFO  corp.tpd.pmm.asn.data.cu.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_PMM_AsnDataCU_v1_0_log4j.properties OK.
+2018-01-22 12:43:48,409 ERROR corp.tpd.pmm.asn.data.cu.model.business.AsnPmmDataBean - [sendBeanInfoToError - PE] Unable to resolve 'jms.fabric.queue.TPD_PE_OMS_IN'. Resolved 'jms.fabric.queue'

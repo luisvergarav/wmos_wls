@@ -1,0 +1,2 @@
+2018-01-22 13:25:05,183 INFO  corp.tpd.oms.notificationstatus.data.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_OMS_NotificationStatusData_v1_0_log4j.properties OK.
+2018-01-22 13:25:05,268 ERROR corp.tpd.oms.notificationstatus.data.model.business.NotificationStatusDataBean - [sendBeanInfoToError - PE] While trying to lookup 'jms.fabric/queue/TPD_PE_OMS_IN' didn't find subcontext 'jms'. Resolved ''

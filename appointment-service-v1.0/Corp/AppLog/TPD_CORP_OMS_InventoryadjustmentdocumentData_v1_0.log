@@ -1,0 +1,2 @@
+2018-01-22 14:58:52,592 INFO  corp.tpd.oms.inventoryadjustmentdocument.data.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_OMS_InventoryadjustmentdocumentDataUpdate_v1_1_log4j.properties OK.
+2018-01-22 14:58:52,826 ERROR corp.tpd.oms.inventoryadjustmentdocument.data.model.business.InventoryAdjustmentDocumentOmsDataBean - [sendBeanInfoToError - PE] While trying to lookup 'jms.fabric/queue/TPD_PE_OMS_IN' didn't find subcontext 'jms'. Resolved ''

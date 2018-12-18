@@ -1,0 +1,2 @@
+2018-01-22 16:00:46,330 INFO  corp.tpd.pmm.distribution.order.datacu.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_PMM_DistributionOrder_Data_CU_v1_0_log4j.properties OK.
+2018-01-22 16:00:46,366 ERROR corp.tpd.pmm.distribution.order.datacu.model.business.DistributionOrderPMMDataCUBean - [sendBeanInfoToError - PE] While trying to lookup 'jms.fabric/queue/TPD_PE_OMS_IN' didn't find subcontext 'jms'. Resolved ''

@@ -1,0 +1,234 @@
+INFO [ACTIVE] ExecuteThread: '50' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '50' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-31011: XML parsing failed
+ORA-31011: XML parsing failed
+ORA-19202: Error occurred in XML processing
+LPX-00210: expected '<' instead of 'S'
+Error at line 1
+ORA-06512: at "HR.TRL_RECIBERUTEO", line 17
+ORA-06512: at line 1
+
+ERROR [ACTIVE] ExecuteThread: '50' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-31011: XML parsing failed
+ORA-31011: XML parsing failed
+ORA-19202: Error occurred in XML processing
+LPX-00210: expected '<' instead of 'S'
+Error at line 1
+ORA-06512: at "HR.TRL_RECIBERUTEO", line 17
+ORA-06512: at line 1
+
+ERROR [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-31011: XML parsing failed
+ORA-31011: XML parsing failed
+ORA-19202: Error occurred in XML processing
+LPX-00210: expected '<' instead of 'S'
+Error at line 1
+ORA-06512: at "HR.TRL_RECIBERUTEO", line 17
+ORA-06512: at line 1
+
+ERROR [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-31011: XML parsing failed
+ORA-31011: XML parsing failed
+ORA-19202: Error occurred in XML processing
+LPX-00210: expected '<' instead of 'S'
+Error at line 1
+ORA-06512: at "HR.TRL_RECIBERUTEO", line 17
+ORA-06512: at line 1
+
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver]No more data available to read.
+ERROR [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver]No more data available to read.
+ERROR [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->Error de conexion
+ERROR [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->Error de conexion
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '83' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '18' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '18' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '18' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '60' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '60' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '60' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '52' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '52' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '52' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '96' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] Registro de Parametros Seteo Retorno
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statuscode : 0
+DEBUG [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [PreconfirmarDAO][] out_statusmsg : eSTA ES UNA RESPUESTA LARGAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+INFO [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0_log4j.properties OK.
+INFO [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '36' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+INFO [ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0_log4j.properties OK.
+INFO [ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver]Unsupported method: CallableStatement.registerOutParameter
+ERROR [ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver]Unsupported method: CallableStatement.registerOutParameter
+INFO [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0_log4j.properties OK.
+INFO [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+INFO [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0_log4j.properties OK.
+INFO [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '69' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '104' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '104' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '45' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '45' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '65' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '65' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+INFO [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0_log4j.properties OK.
+INFO [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.utilidades.Properties.Configurator - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_ODBMS_Despacho_DADRSBLD_conf_rsvPreconfirmar_v1_0.properties OK.
+ERROR [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+ERROR [ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)' corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.dao.ODBMSDespachoDADRSBLD_conf_rsvPreconfirmarDAOBean - [[ERROR]] -->[DataDirect][Oracle JDBC Driver][Oracle]ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SP_TEST_9I'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+

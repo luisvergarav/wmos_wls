@@ -1,0 +1,997 @@
+2018-02-28 14:26:45,792 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-02-28 14:26:45,794 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 52 - Iniciando Facade
+2018-02-28 14:26:45,802 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - Iniciando DAO
+2018-02-28 14:26:45,808 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-02-28 14:26:45,808 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - DATASOURCE: DS/SIGIC
+2018-02-28 14:26:45,808 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-02-28 14:26:45,808 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  PARAMETROS ENTRADA SP
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Fecha final: 1980-04-02
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Fecha Inicial: 1980-04-02
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Id Empresa: 23
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Luw: StringValue
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Rut: StringValue
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Folio Number: StringValue
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Folio Status: 23
+2018-02-28 14:26:45,810 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Numero documento: 23
+2018-02-28 14:26:45,856 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 52 - Exception: [FMWGEN][Sybase JDBC Driver][Sybase]EXECUTE permission denied on object PCE_FolioObtener, database SIGICDB_Cta, owner sigic_cta
+
+2018-02-28 14:26:45,856 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 - Finalizado cierre de conexion DAO
+2018-02-28 14:26:45,856 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 - Finalizada Ejecución de DAO
+2018-02-28 14:26:45,857 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver][Sybase]EXECUTE permission denied on object PCE_FolioObtener, database SIGICDB_Cta, owner sigic_cta
+
+2018-02-28 14:26:45,857 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 10:01:11,098 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 31 - Iniciando Facade
+2018-03-01 10:01:11,100 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - Iniciando DAO
+2018-03-01 10:01:11,100 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 10:01:11,100 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - DATASOURCE: DS/SIGIC
+2018-03-01 10:01:11,101 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 10:01:11,101 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 10:01:11,105 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  PARAMETROS ENTRADA SP
+2018-03-01 10:01:11,105 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha final: 1980-04-02
+2018-03-01 10:01:11,105 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha Inicial: 1980-04-02
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Id Empresa: 23
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Luw: StringValue
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Rut: StringValue
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Number: StringValue
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Status: 23
+2018-03-01 10:01:11,106 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Numero documento: 23
+2018-03-01 10:01:11,303 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 31 - Exception: [FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:01:11,304 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizado cierre de conexion DAO
+2018-03-01 10:01:11,304 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizada Ejecución de DAO
+2018-03-01 10:01:11,305 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:01:11,305 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 10:05:45,094 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 53 - Iniciando Facade
+2018-03-01 10:05:46,621 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - Iniciando DAO
+2018-03-01 10:05:46,621 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 10:05:46,621 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - DATASOURCE: DS/SIGIC
+2018-03-01 10:05:46,621 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  PARAMETROS ENTRADA SP
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha final: 1980-04-02
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha Inicial: 1980-04-02
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Id Empresa: 23
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Luw: StringValue
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Rut: StringValue
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Number: StringValue
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Status: 23
+2018-03-01 10:05:46,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Numero documento: 23
+2018-03-01 10:07:16,806 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 53 - Exception: [FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:07:16,806 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizado cierre de conexion DAO
+2018-03-01 10:07:16,806 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizada Ejecución de DAO
+2018-03-01 10:07:16,807 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:07:16,807 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 10:08:08,240 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-01 10:08:10,780 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-01 10:08:10,780 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 10:08:10,780 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - DATASOURCE: DS/SIGIC
+2018-03-01 10:08:10,780 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 10:08:10,780 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  PARAMETROS ENTRADA SP
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha final: 2010-05-02
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha Inicial: 2010-04-02
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Id Empresa: 23
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Luw: StringValue
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Rut: StringValue
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Number: StringValue
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Status: 23
+2018-03-01 10:08:10,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Numero documento: 23
+2018-03-01 10:08:14,501 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 51 - Exception: [FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:08:14,502 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-01 10:08:14,502 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-01 10:08:14,503 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver]Column index 12 is out of range.
+2018-03-01 10:08:14,503 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 10:15:51,130 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-01 10:15:51,132 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 56 - Iniciando Facade
+2018-03-01 10:15:54,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - Iniciando DAO
+2018-03-01 10:15:54,053 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 10:15:54,053 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - DATASOURCE: DS/SIGIC
+2018-03-01 10:15:54,053 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 10:15:54,053 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 10:15:54,057 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  PARAMETROS ENTRADA SP
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha final: 2010-05-02
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha Inicial: 2010-04-02
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Id Empresa: 23
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Luw: StringValue
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Rut: StringValue
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Number: StringValue
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Status: 23
+2018-03-01 10:15:54,058 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Numero documento: 23
+2018-03-01 10:15:54,097 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 56 - Exception: [FMWGEN][Sybase JDBC Driver]Invalid operation for the current cursor position.
+2018-03-01 10:15:54,097 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizado cierre de conexion DAO
+2018-03-01 10:15:54,097 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizada Ejecución de DAO
+2018-03-01 10:15:54,098 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver]Invalid operation for the current cursor position.
+2018-03-01 10:15:54,098 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 10:16:32,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 56 - Iniciando Facade
+2018-03-01 10:16:51,048 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - Iniciando DAO
+2018-03-01 10:16:51,048 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 10:16:51,048 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - DATASOURCE: DS/SIGIC
+2018-03-01 10:16:51,048 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 10:16:51,048 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  PARAMETROS ENTRADA SP
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha final: 2010-05-02
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha Inicial: 2010-04-02
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Id Empresa: 23
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Luw: StringValue
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Rut: StringValue
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Number: StringValue
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Status: 23
+2018-03-01 10:16:51,049 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Numero documento: 23
+2018-03-01 10:17:04,858 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 56 - Exception: [FMWGEN][Sybase JDBC Driver]Invalid operation for the current cursor position.
+2018-03-01 10:17:04,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizado cierre de conexion DAO
+2018-03-01 10:17:04,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizada Ejecución de DAO
+2018-03-01 10:17:04,859 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->[FMWGEN][Sybase JDBC Driver]Invalid operation for the current cursor position.
+2018-03-01 10:17:04,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:23:50,713 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-01 16:23:50,715 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 53 - Iniciando Facade
+2018-03-01 16:23:50,725 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - Iniciando DAO
+2018-03-01 16:23:50,731 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:23:50,731 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - DATASOURCE: DS/SIGIC
+2018-03-01 16:23:50,731 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:23:50,731 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  PARAMETROS ENTRADA SP
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha final: 1980-04-02
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Id Empresa: null
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Luw: StringValue
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Rut: 020112273922
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Number: 
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Status: null
+2018-03-01 16:23:50,736 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Numero documento: 0
+2018-03-01 16:23:50,739 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 53 - Exception: null
+2018-03-01 16:23:50,740 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizado cierre de conexion DAO
+2018-03-01 16:23:50,740 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizada Ejecución de DAO
+2018-03-01 16:23:50,741 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:23:50,741 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:24:43,991 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 31 - Iniciando Facade
+2018-03-01 16:24:54,037 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - Iniciando DAO
+2018-03-01 16:24:55,549 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:24:56,157 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - DATASOURCE: DS/SIGIC
+2018-03-01 16:24:57,523 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:24:58,096 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:24:59,733 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  PARAMETROS ENTRADA SP
+2018-03-01 16:25:00,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha final: 1980-04-02
+2018-03-01 16:25:00,455 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:25:00,653 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Id Empresa: null
+2018-03-01 16:25:00,817 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Luw: StringValue
+2018-03-01 16:25:00,972 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Rut: 020112273922
+2018-03-01 16:25:01,181 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Number: 
+2018-03-01 16:25:01,352 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Status: null
+2018-03-01 16:25:01,521 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Numero documento: 0
+2018-03-01 16:25:12,126 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 31 - Exception: null
+2018-03-01 16:25:12,126 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizado cierre de conexion DAO
+2018-03-01 16:25:12,126 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizada Ejecución de DAO
+2018-03-01 16:25:12,128 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:25:12,128 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:25:15,173 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 31 - Iniciando Facade
+2018-03-01 16:25:17,302 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - Iniciando DAO
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - DATASOURCE: DS/SIGIC
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  PARAMETROS ENTRADA SP
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha final: 1980-04-02
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Id Empresa: null
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Luw: StringValue
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Rut: 020112273922
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Number: 
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Folio Status: null
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 31 -  Numero documento: 0
+2018-03-01 16:25:18,677 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 31 - Exception: null
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizado cierre de conexion DAO
+2018-03-01 16:25:18,677 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 31 - Finalizada Ejecución de DAO
+2018-03-01 16:25:18,678 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:25:18,679 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:25:27,751 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 29 - Iniciando Facade
+2018-03-01 16:25:29,734 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 - Iniciando DAO
+2018-03-01 16:25:37,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:25:38,230 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 - DATASOURCE: DS/SIGIC
+2018-03-01 16:25:39,598 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:25:40,182 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:25:41,721 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  PARAMETROS ENTRADA SP
+2018-03-01 16:25:42,118 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Fecha final: 1980-04-02
+2018-03-01 16:25:42,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:25:42,753 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Id Empresa: null
+2018-03-01 16:25:42,995 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Luw: StringValue
+2018-03-01 16:25:43,243 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Rut: 020112273922
+2018-03-01 16:25:43,452 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Folio Number: 
+2018-03-01 16:25:43,659 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Folio Status: null
+2018-03-01 16:25:43,875 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 29 -  Numero documento: 0
+2018-03-01 16:26:00,455 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 29 - Exception: null
+2018-03-01 16:26:00,455 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 29 - Finalizado cierre de conexion DAO
+2018-03-01 16:26:00,455 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 29 - Finalizada Ejecución de DAO
+2018-03-01 16:26:00,458 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:26:00,458 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:26:03,258 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 50 - Iniciando Facade
+2018-03-01 16:26:06,041 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - Iniciando DAO
+2018-03-01 16:26:07,709 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:26:08,321 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - DATASOURCE: DS/SIGIC
+2018-03-01 16:26:09,750 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:26:10,369 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:26:12,041 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  PARAMETROS ENTRADA SP
+2018-03-01 16:26:12,515 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha final: 1980-04-02
+2018-03-01 16:26:12,970 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:26:13,255 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Id Empresa: null
+2018-03-01 16:26:13,543 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Luw: StringValue
+2018-03-01 16:26:13,750 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Rut: 020112273922
+2018-03-01 16:26:13,963 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Number: 
+2018-03-01 16:26:14,194 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Status: null
+2018-03-01 16:26:14,420 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Numero documento: 0
+2018-03-01 16:27:52,314 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 50 - Exception: null
+2018-03-01 16:27:52,315 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizado cierre de conexion DAO
+2018-03-01 16:27:52,315 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizada Ejecución de DAO
+2018-03-01 16:27:52,316 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:27:52,316 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:30:18,658 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 55 - Iniciando Facade
+2018-03-01 16:30:25,244 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - Iniciando DAO
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - DATASOURCE: DS/SIGIC
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  PARAMETROS ENTRADA SP
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha final: 1980-04-02
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Id Empresa: 0
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Luw: StringValue
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Rut: 020112273922
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Number: 0
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Status: null
+2018-03-01 16:30:28,825 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Numero documento: 0
+2018-03-01 16:30:28,825 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 55 - Exception: null
+2018-03-01 16:30:28,826 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizado cierre de conexion DAO
+2018-03-01 16:30:28,826 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizada Ejecución de DAO
+2018-03-01 16:30:28,827 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:30:28,827 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:30:37,614 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-01 16:30:38,952 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-01 16:30:42,173 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:30:42,938 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - DATASOURCE: DS/SIGIC
+2018-03-01 16:30:44,617 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:30:45,374 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:30:47,460 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  PARAMETROS ENTRADA SP
+2018-03-01 16:30:47,781 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha final: 1980-04-02
+2018-03-01 16:30:48,192 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:30:48,593 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Id Empresa: 0
+2018-03-01 16:30:49,008 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Luw: StringValue
+2018-03-01 16:30:49,350 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Rut: 020112273922
+2018-03-01 16:30:49,704 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Number: 0
+2018-03-01 16:30:50,029 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Status: null
+2018-03-01 16:30:50,358 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Numero documento: 0
+2018-03-01 16:33:48,630 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 51 - Exception: null
+2018-03-01 16:33:48,632 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-01 16:33:48,632 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-01 16:33:48,633 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:33:48,633 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:43:24,948 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 88 - Iniciando Facade
+2018-03-01 16:43:27,925 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - Iniciando DAO
+2018-03-01 16:43:29,922 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:43:30,580 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - DATASOURCE: DS/SIGIC
+2018-03-01 16:43:32,164 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:43:32,858 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:43:34,882 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  PARAMETROS ENTRADA SP
+2018-03-01 16:43:35,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Fecha final: 1980-04-02
+2018-03-01 16:43:35,639 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:43:35,974 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Id Empresa: 0
+2018-03-01 16:43:36,303 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Luw: StringValue
+2018-03-01 16:43:36,673 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Rut: 020112273922
+2018-03-01 16:43:37,007 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Folio Number: 0
+2018-03-01 16:43:37,357 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Folio Status: 0
+2018-03-01 16:43:37,699 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Numero documento: 0
+2018-03-01 16:43:56,151 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  RESPUESTA BACKEND
+2018-03-01 16:43:56,151 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  CodigoEstado: null
+2018-03-01 16:43:56,151 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  MensajeEstado: null
+2018-03-01 16:43:56,152 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 - Finalizado cierre de conexion DAO
+2018-03-01 16:43:56,152 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 - Finalizada Ejecución de DAO
+2018-03-01 16:43:56,152 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:47:36,869 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-03-01 16:47:41,740 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-03-01 16:47:44,202 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:47:44,930 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SIGIC
+2018-03-01 16:47:46,625 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:47:47,363 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:47:49,694 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-03-01 16:47:50,716 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Fecha final: null
+2018-03-01 16:47:51,202 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:47:51,715 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Id Empresa: 0
+2018-03-01 16:47:52,057 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Luw: StringValue
+2018-03-01 16:47:52,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Rut: 020112273922
+2018-03-01 16:47:52,924 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Folio Number: 0
+2018-03-01 16:47:53,403 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Folio Status: 0
+2018-03-01 16:47:53,886 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Numero documento: 0
+2018-03-01 16:47:58,526 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 60 - Exception: null
+2018-03-01 16:47:58,526 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-03-01 16:47:58,526 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-03-01 16:47:58,527 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-01 16:47:58,527 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:48:44,645 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 56 - Iniciando Facade
+2018-03-01 16:48:47,263 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - Iniciando DAO
+2018-03-01 16:48:49,894 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:48:52,313 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - DATASOURCE: DS/SIGIC
+2018-03-01 16:48:54,030 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:48:54,819 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:48:57,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  PARAMETROS ENTRADA SP
+2018-03-01 16:48:57,580 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha final: 2000-01-01
+2018-03-01 16:48:58,051 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:48:58,548 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Id Empresa: 0
+2018-03-01 16:48:59,010 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Luw: StringValue
+2018-03-01 16:48:59,462 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Rut: 020112273922
+2018-03-01 16:48:59,919 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Number: 0
+2018-03-01 16:49:00,410 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Folio Status: 0
+2018-03-01 16:49:00,879 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 56 -  Numero documento: 0
+2018-03-01 16:49:36,950 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 -  RESPUESTA BACKEND
+2018-03-01 16:49:37,990 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 -  CodigoEstado: null
+2018-03-01 16:49:38,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 -  MensajeEstado: null
+2018-03-01 16:49:38,581 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizado cierre de conexion DAO
+2018-03-01 16:49:39,796 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizada Ejecución de DAO
+2018-03-01 16:50:45,469 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:51:47,927 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-03-01 16:51:52,281 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-03-01 16:51:54,626 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:51:55,540 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SIGIC
+2018-03-01 16:51:57,522 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:51:58,390 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:52:01,349 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-03-01 16:52:01,801 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Fecha final: 2000-01-01
+2018-03-01 16:52:02,261 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:52:02,742 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Id Empresa: 0
+2018-03-01 16:52:03,204 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Luw: StringValue
+2018-03-01 16:52:03,514 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Rut: 020112273922
+2018-03-01 16:52:03,868 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Folio Number: 0
+2018-03-01 16:52:04,748 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Folio Status: 0
+2018-03-01 16:52:05,218 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 60 -  Numero documento: 0
+2018-03-01 16:53:11,726 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-03-01 16:53:11,727 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 -  CodigoEstado: null
+2018-03-01 16:53:11,727 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 -  MensajeEstado: null
+2018-03-01 16:53:11,727 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-03-01 16:53:11,727 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-03-01 16:53:35,689 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:55:48,524 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 102 - Iniciando Facade
+2018-03-01 16:55:51,267 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 - Iniciando DAO
+2018-03-01 16:55:52,648 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:55:52,648 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 - DATASOURCE: DS/SIGIC
+2018-03-01 16:55:52,649 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:55:52,649 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:55:52,649 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  PARAMETROS ENTRADA SP
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Fecha final: 2000-01-01
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Id Empresa: 0
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Luw: f
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Rut: 020112273922
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Folio Number: 0
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Folio Status: 0
+2018-03-01 16:55:52,650 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 102 -  Numero documento: 0
+2018-03-01 16:55:52,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 102 -  RESPUESTA BACKEND
+2018-03-01 16:55:52,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 102 -  CodigoEstado: 0
+2018-03-01 16:55:52,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 102 -  MensajeEstado: OK
+2018-03-01 16:55:52,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 102 - Finalizado cierre de conexion DAO
+2018-03-01 16:55:52,672 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 102 - Finalizada Ejecución de DAO
+2018-03-01 16:55:53,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-01 16:56:57,861 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-03-01 16:57:12,572 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-03-01 16:57:15,059 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-01 16:57:15,811 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SIGIC
+2018-03-01 16:57:17,479 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-01 16:57:18,233 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-01 16:57:20,439 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-03-01 16:57:23,023 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Fecha final: 2000-01-01
+2018-03-01 16:57:23,583 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Fecha Inicial: 1900-01-01
+2018-03-01 16:57:24,107 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Id Empresa: 0
+2018-03-01 16:57:24,643 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Luw: f
+2018-03-01 16:57:25,175 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Rut: 020112273922
+2018-03-01 16:57:25,727 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Folio Number: 0
+2018-03-01 16:57:26,753 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Folio Status: 0
+2018-03-01 16:57:27,309 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 30 -  Numero documento: 0
+2018-03-01 16:59:38,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-03-01 16:59:38,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 30 -  CodigoEstado: 0
+2018-03-01 16:59:38,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 30 -  MensajeEstado: OK
+2018-03-01 16:59:38,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-03-01 16:59:38,279 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-03-01 16:59:40,735 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 11:55:09,244 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-02 11:55:09,245 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-02 11:55:09,251 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-02 11:55:09,256 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 51 - Exception: Error en properties, verificar configuracion - corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.AR
+2018-03-02 11:55:09,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-02 11:55:09,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-02 11:55:09,256 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->Error en properties, verificar configuracion - corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.AR
+2018-03-02 11:55:09,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 11:55:25,233 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 101 - Iniciando Facade
+2018-03-02 11:55:25,235 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - Iniciando DAO
+2018-03-02 11:55:25,235 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 11:55:25,235 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - DATASOURCE: DS/SIGIC
+2018-03-02 11:55:25,235 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 11:55:25,235 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 11:55:25,360 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  PARAMETROS ENTRADA SP
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha final: 2000-04-02
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha Inicial: 1980-04-02
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Id Empresa: 23
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Luw: StringValue
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Rut: 020112273922
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Number: StringValue
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Status: 23
+2018-03-02 11:55:25,361 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Numero documento: 23
+2018-03-02 11:55:25,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  RESPUESTA BACKEND
+2018-03-02 11:55:25,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  CodigoEstado: 0
+2018-03-02 11:55:25,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  MensajeEstado: OK
+2018-03-02 11:55:25,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizado cierre de conexion DAO
+2018-03-02 11:55:25,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizada Ejecución de DAO
+2018-03-02 11:55:25,432 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->null
+2018-03-02 11:55:25,432 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 11:56:22,263 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-03-02 11:57:06,244 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-02 11:57:06,244 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 11:57:21,622 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 101 - Iniciando Facade
+2018-03-02 11:57:33,670 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - Iniciando DAO
+2018-03-02 11:57:36,824 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 11:57:44,184 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - DATASOURCE: DS/SIGIC
+2018-03-02 11:57:56,059 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 11:57:57,098 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 11:58:00,691 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  PARAMETROS ENTRADA SP
+2018-03-02 11:58:01,283 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha final: 2000-04-02
+2018-03-02 11:58:01,472 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha Inicial: 1980-04-02
+2018-03-02 11:58:01,680 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Id Empresa: 23
+2018-03-02 11:58:01,854 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Luw: StringValue
+2018-03-02 11:58:02,057 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Rut: 020112273922
+2018-03-02 11:58:02,259 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Number: StringValue
+2018-03-02 11:58:02,429 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Status: 23
+2018-03-02 11:58:02,611 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Numero documento: 23
+2018-03-02 11:59:41,207 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  RESPUESTA BACKEND
+2018-03-02 11:59:41,409 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  CodigoEstado: 0
+2018-03-02 11:59:42,014 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  MensajeEstado: OK
+2018-03-02 11:59:43,434 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizado cierre de conexion DAO
+2018-03-02 11:59:43,812 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizada Ejecución de DAO
+2018-03-02 12:01:02,516 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->null
+2018-03-02 12:01:02,516 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:05:22,710 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-02 12:05:22,712 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-02 12:05:24,372 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-02 12:05:24,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:05:24,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - DATASOURCE: DS/SIGIC
+2018-03-02 12:05:24,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:05:24,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  PARAMETROS ENTRADA SP
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha final: 2000-04-02
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Id Empresa: 23
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Luw: StringValue
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Rut: 020112273922
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Number: StringValue
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Status: 23
+2018-03-02 12:05:25,396 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Numero documento: 23
+2018-03-02 12:05:25,437 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  RESPUESTA BACKEND
+2018-03-02 12:05:25,437 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  CodigoEstado: 0
+2018-03-02 12:05:25,437 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  MensajeEstado: OK
+2018-03-02 12:05:25,437 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-02 12:05:25,437 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-02 12:05:25,763 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:07:09,805 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-02 12:07:12,433 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-02 12:07:21,754 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:07:21,754 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - DATASOURCE: DS/SIGIC
+2018-03-02 12:07:21,754 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:07:21,754 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:07:24,397 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  PARAMETROS ENTRADA SP
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha final: 2000-04-02
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Id Empresa: 23
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Luw: StringValue
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Rut: 020112273922
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Number: StringValue
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Status: 23
+2018-03-02 12:07:24,398 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Numero documento: 23
+2018-03-02 12:09:50,484 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  RESPUESTA BACKEND
+2018-03-02 12:09:50,484 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  CodigoEstado: 0
+2018-03-02 12:09:50,484 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  MensajeEstado: OK
+2018-03-02 12:09:50,484 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-02 12:09:50,484 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-02 12:09:52,451 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:38:10,985 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 101 - Iniciando Facade
+2018-03-02 12:38:18,358 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - Iniciando DAO
+2018-03-02 12:38:19,109 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:38:19,110 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - DATASOURCE: DS/SIGIC
+2018-03-02 12:38:19,110 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:38:19,110 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:38:19,901 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  PARAMETROS ENTRADA SP
+2018-03-02 12:38:19,901 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha final: 2000-04-02
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Id Empresa: 0
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Luw: StringValue
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Rut: 020112273922
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Number: StringValue
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Folio Status: 0
+2018-03-02 12:38:19,902 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 101 -  Numero documento: 0
+2018-03-02 12:38:20,219 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  RESPUESTA BACKEND
+2018-03-02 12:38:20,220 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  CodigoEstado: 0
+2018-03-02 12:38:20,220 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 -  MensajeEstado: OK
+2018-03-02 12:38:20,220 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizado cierre de conexion DAO
+2018-03-02 12:38:20,220 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 101 - Finalizada Ejecución de DAO
+2018-03-02 12:38:20,704 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:38:40,476 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-03-02 12:38:40,476 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 - Iniciando DAO
+2018-03-02 12:38:40,476 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:38:40,476 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 - DATASOURCE: DS/SIGIC
+2018-03-02 12:38:40,476 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  PARAMETROS ENTRADA SP
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Fecha final: 2000-04-02
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Id Empresa: 0
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Luw: 
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Rut: 020112273922
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Folio Number: 
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Folio Status: 0
+2018-03-02 12:38:40,477 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 54 -  Numero documento: 0
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 54 -  RESPUESTA BACKEND
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 54 -  CodigoEstado: 0
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 54 -  MensajeEstado: OK
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizada Ejecución de DAO
+2018-03-02 12:38:40,520 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 100 - Iniciando Facade
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - Iniciando DAO
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - DATASOURCE: DS/SIGIC
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:38:58,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  PARAMETROS ENTRADA SP
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Fecha final: 2018-04-02
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Id Empresa: 0
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Luw: 
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Rut: 020112273922
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Folio Number: 
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Folio Status: 0
+2018-03-02 12:38:58,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Numero documento: 0
+2018-03-02 12:38:58,865 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 100 - Exception: null
+2018-03-02 12:38:58,866 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 100 - Finalizado cierre de conexion DAO
+2018-03-02 12:38:58,866 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 100 - Finalizada Ejecución de DAO
+2018-03-02 12:38:58,868 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-02 12:38:58,868 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:39:10,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 100 - Iniciando Facade
+2018-03-02 12:39:14,913 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - Iniciando DAO
+2018-03-02 12:39:17,628 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:39:17,628 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - DATASOURCE: DS/SIGIC
+2018-03-02 12:39:17,628 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:39:17,628 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:39:20,888 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  PARAMETROS ENTRADA SP
+2018-03-02 12:39:21,272 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Fecha final: 2018-04-02
+2018-03-02 12:39:21,454 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:39:21,620 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Id Empresa: 0
+2018-03-02 12:39:21,788 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Luw: 
+2018-03-02 12:39:21,969 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Rut: 020112273922
+2018-03-02 12:39:22,259 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Folio Number: 
+2018-03-02 12:39:22,412 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Folio Status: 0
+2018-03-02 12:39:22,569 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 100 -  Numero documento: 0
+2018-03-02 12:41:54,247 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[ERROR]] -->  Thread ID: 100 - Exception: null
+2018-03-02 12:41:54,247 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 100 - Finalizado cierre de conexion DAO
+2018-03-02 12:41:54,247 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 100 - Finalizada Ejecución de DAO
+2018-03-02 12:41:54,248 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->EJB Exception: 
+2018-03-02 12:41:54,248 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:45:38,526 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-02 12:45:38,527 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 52 - Iniciando Facade
+2018-03-02 12:45:40,107 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - Iniciando DAO
+2018-03-02 12:45:40,759 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:45:40,759 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - DATASOURCE: DS/SIGIC
+2018-03-02 12:45:40,759 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:45:40,759 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:45:41,665 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  PARAMETROS ENTRADA SP
+2018-03-02 12:45:41,665 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Fecha final: 2018-04-02
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Id Empresa: 0
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Luw: 
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Rut: 020112273922
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Folio Number: 
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Folio Status: 0
+2018-03-02 12:45:41,666 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 52 -  Numero documento: 0
+2018-03-02 12:45:42,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 -  RESPUESTA BACKEND
+2018-03-02 12:45:42,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 -  CodigoEstado: 0
+2018-03-02 12:45:42,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 -  MensajeEstado: OK
+2018-03-02 12:45:42,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 - Finalizado cierre de conexion DAO
+2018-03-02 12:45:42,850 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 52 - Finalizada Ejecución de DAO
+2018-03-02 12:45:43,450 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->null
+2018-03-02 12:45:43,450 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:46:02,670 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 55 - Iniciando Facade
+2018-03-02 12:46:06,572 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - Iniciando DAO
+2018-03-02 12:46:08,950 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:46:08,950 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - DATASOURCE: DS/SIGIC
+2018-03-02 12:46:08,950 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:46:08,950 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:46:17,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  PARAMETROS ENTRADA SP
+2018-03-02 12:46:17,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha final: 2018-04-02
+2018-03-02 12:46:17,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:46:17,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Id Empresa: 0
+2018-03-02 12:46:17,074 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Luw: 
+2018-03-02 12:46:17,074 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Rut: 020112273922
+2018-03-02 12:46:17,074 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Number: 
+2018-03-02 12:46:17,074 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Status: 0
+2018-03-02 12:46:17,074 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Numero documento: 0
+2018-03-02 12:46:18,309 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  RESPUESTA BACKEND
+2018-03-02 12:46:18,309 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  CodigoEstado: 0
+2018-03-02 12:46:24,285 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  MensajeEstado: OK
+2018-03-02 12:46:24,285 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizado cierre de conexion DAO
+2018-03-02 12:46:24,285 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizada Ejecución de DAO
+2018-03-02 12:49:23,141 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->null
+2018-03-02 12:49:23,141 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:50:15,955 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-02 12:50:15,958 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 88 - Iniciando Facade
+2018-03-02 12:50:15,964 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - Iniciando DAO
+2018-03-02 12:50:15,966 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:50:15,966 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - DATASOURCE: DS/SIGIC
+2018-03-02 12:50:15,966 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:50:15,966 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  PARAMETROS ENTRADA SP
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Fecha final: 2018-04-02
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Id Empresa: 0
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Luw: 
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Rut: 020112273922
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Folio Number: 
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Folio Status: 0
+2018-03-02 12:50:15,968 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 88 -  Numero documento: 0
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  RESPUESTA BACKEND
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  CodigoEstado: 0
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 -  MensajeEstado: OK
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 - Finalizado cierre de conexion DAO
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 88 - Finalizada Ejecución de DAO
+2018-03-02 12:50:16,102 ERROR corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[ERROR]] -->null
+2018-03-02 12:50:16,102 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-02 12:52:28,264 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-02 12:52:28,266 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 55 - Iniciando Facade
+2018-03-02 12:52:28,284 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - Iniciando DAO
+2018-03-02 12:52:28,286 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-02 12:52:28,286 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - DATASOURCE: DS/SIGIC
+2018-03-02 12:52:28,286 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-02 12:52:28,286 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-02 12:52:28,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  PARAMETROS ENTRADA SP
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha final: 2018-04-02
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Fecha Inicial: 1980-04-02
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Id Empresa: 0
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Luw: 
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Rut: 020112273922
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Number: 
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Folio Status: 0
+2018-03-02 12:52:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 55 -  Numero documento: 0
+2018-03-02 12:52:28,327 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  RESPUESTA BACKEND
+2018-03-02 12:52:28,327 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  CodigoEstado: 0
+2018-03-02 12:52:28,327 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 -  MensajeEstado: OK
+2018-03-02 12:52:28,327 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizado cierre de conexion DAO
+2018-03-02 12:52:28,328 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 55 - Finalizada Ejecución de DAO
+2018-03-02 12:52:28,328 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 12:13:49,887 INFO  corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_SIGIC_ClienteEmpresa_FolioObtenerObtener_v1_0_log4j.properties OK.
+2018-03-06 12:13:49,903 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 25 - Iniciando Facade
+2018-03-06 12:13:49,916 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - Iniciando DAO
+2018-03-06 12:13:49,922 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 12:13:49,922 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - DATASOURCE: DS/SIGIC
+2018-03-06 12:13:49,922 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 12:13:49,923 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  PARAMETROS ENTRADA SP
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha final: 2018-04-02
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha Inicial: 1980-04-02
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Id Empresa: 0
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Luw: 
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Rut: 020112273922
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Number: 
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Status: 0
+2018-03-06 12:13:50,000 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Numero documento: 0
+2018-03-06 12:13:50,078 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  RESPUESTA BACKEND
+2018-03-06 12:13:50,078 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  CodigoEstado: 0
+2018-03-06 12:13:50,078 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  MensajeEstado: OK
+2018-03-06 12:13:50,082 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizado cierre de conexion DAO
+2018-03-06 12:13:50,082 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizada Ejecución de DAO
+2018-03-06 12:13:50,083 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 12:14:33,273 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 25 - Iniciando Facade
+2018-03-06 12:14:38,224 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - Iniciando DAO
+2018-03-06 12:14:47,784 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 12:14:48,230 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - DATASOURCE: DS/SIGIC
+2018-03-06 12:14:49,124 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 12:14:49,387 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 12:14:50,709 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  PARAMETROS ENTRADA SP
+2018-03-06 12:14:51,195 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha final: 2018-04-02
+2018-03-06 12:14:51,352 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha Inicial: 1980-04-02
+2018-03-06 12:14:51,510 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Id Empresa: 0
+2018-03-06 12:14:51,708 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Luw: 
+2018-03-06 12:14:51,870 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Rut: 020112273922
+2018-03-06 12:14:52,077 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Number: 
+2018-03-06 12:14:52,241 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Status: 0
+2018-03-06 12:14:52,417 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Numero documento: 0
+2018-03-06 12:15:53,696 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  RESPUESTA BACKEND
+2018-03-06 12:15:55,137 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  CodigoEstado: 0
+2018-03-06 12:15:55,137 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  MensajeEstado: OK
+2018-03-06 12:15:55,138 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizado cierre de conexion DAO
+2018-03-06 12:15:55,138 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizada Ejecución de DAO
+2018-03-06 12:15:55,138 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 12:16:37,426 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 25 - Iniciando Facade
+2018-03-06 12:16:39,930 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - Iniciando DAO
+2018-03-06 12:16:41,309 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 12:16:41,728 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - DATASOURCE: DS/SIGIC
+2018-03-06 12:16:42,295 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 12:16:42,841 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 12:16:45,297 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  PARAMETROS ENTRADA SP
+2018-03-06 12:16:45,510 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha final: 2018-04-02
+2018-03-06 12:16:45,678 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Fecha Inicial: 1980-04-02
+2018-03-06 12:16:45,839 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Id Empresa: 0
+2018-03-06 12:16:45,993 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Luw: 
+2018-03-06 12:16:46,180 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Rut: 020112273922
+2018-03-06 12:16:46,934 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Number: 5148031
+2018-03-06 12:16:47,093 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Folio Status: 0
+2018-03-06 12:16:47,565 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 25 -  Numero documento: 0
+2018-03-06 12:17:27,646 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  RESPUESTA BACKEND
+2018-03-06 12:17:27,646 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  CodigoEstado: 0
+2018-03-06 12:17:27,646 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 -  MensajeEstado: OK
+2018-03-06 12:17:27,646 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizado cierre de conexion DAO
+2018-03-06 12:17:27,647 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizada Ejecución de DAO
+2018-03-06 12:17:27,647 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 12:19:20,378 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 36 - Iniciando Facade
+2018-03-06 12:19:27,412 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - Iniciando DAO
+2018-03-06 12:19:28,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 12:19:28,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - DATASOURCE: DS/SIGIC
+2018-03-06 12:19:28,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 12:19:28,288 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  PARAMETROS ENTRADA SP
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha final: 1900-01-01
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha Inicial: 1900-01-01
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Id Empresa: 0
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Luw: 
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Rut: 020112273922
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Number: 5148031
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Status: 0
+2018-03-06 12:19:28,289 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Numero documento: 0
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  RESPUESTA BACKEND
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  CodigoEstado: 0
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  MensajeEstado: OK
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizado cierre de conexion DAO
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizada Ejecución de DAO
+2018-03-06 12:19:28,300 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 12:19:57,577 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 51 - Iniciando Facade
+2018-03-06 12:19:58,497 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - Iniciando DAO
+2018-03-06 12:19:59,210 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 12:19:59,210 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - DATASOURCE: DS/SIGIC
+2018-03-06 12:19:59,210 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 12:19:59,210 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  PARAMETROS ENTRADA SP
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha final: 1900-01-01
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Fecha Inicial: 1900-01-01
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Id Empresa: 0
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Luw: 
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Rut: 020112273922
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Number: 0
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Folio Status: 0
+2018-03-06 12:19:59,211 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 51 -  Numero documento: 0
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  RESPUESTA BACKEND
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  CodigoEstado: 0
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 -  MensajeEstado: OK
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizado cierre de conexion DAO
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 51 - Finalizada Ejecución de DAO
+2018-03-06 12:19:59,217 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 14:14:51,501 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 36 - Iniciando Facade
+2018-03-06 14:14:58,518 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - Iniciando DAO
+2018-03-06 14:15:02,408 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 14:15:03,118 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - DATASOURCE: DS/SIGIC
+2018-03-06 14:15:03,840 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 14:15:04,137 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 14:15:05,750 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  PARAMETROS ENTRADA SP
+2018-03-06 14:15:06,299 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha final: 1900-01-01
+2018-03-06 14:15:06,674 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha Inicial: 1900-01-01
+2018-03-06 14:15:07,154 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Id Empresa: 0
+2018-03-06 14:15:07,706 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Luw: 
+2018-03-06 14:15:08,234 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Rut: 020112273922
+2018-03-06 14:15:08,859 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Number: 
+2018-03-06 14:15:09,298 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Status: 0
+2018-03-06 14:15:09,778 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Numero documento: 0
+2018-03-06 14:18:25,338 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  RESPUESTA BACKEND
+2018-03-06 14:18:25,338 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  CodigoEstado: 0
+2018-03-06 14:18:25,338 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  MensajeEstado: OK
+2018-03-06 14:18:25,339 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizado cierre de conexion DAO
+2018-03-06 14:18:25,339 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizada Ejecución de DAO
+2018-03-06 14:18:25,339 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 14:18:42,573 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 65 - Iniciando Facade
+2018-03-06 14:18:45,995 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 - Iniciando DAO
+2018-03-06 14:18:47,809 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 14:18:48,224 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 - DATASOURCE: DS/SIGIC
+2018-03-06 14:18:49,073 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 14:18:49,424 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 14:18:50,576 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  PARAMETROS ENTRADA SP
+2018-03-06 14:18:50,830 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Fecha final: 1900-01-01
+2018-03-06 14:18:51,100 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Fecha Inicial: 1900-01-01
+2018-03-06 14:18:51,347 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Id Empresa: 0
+2018-03-06 14:18:51,602 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Luw: 
+2018-03-06 14:18:51,851 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Rut: 020112273922
+2018-03-06 14:18:52,132 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Folio Number: 
+2018-03-06 14:18:52,593 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Folio Status: 0
+2018-03-06 14:18:52,984 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 65 -  Numero documento: 0
+2018-03-06 14:20:10,972 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 65 -  RESPUESTA BACKEND
+2018-03-06 14:20:10,972 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 65 -  CodigoEstado: 0
+2018-03-06 14:20:10,972 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 65 -  MensajeEstado: OK
+2018-03-06 14:20:10,972 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 65 - Finalizado cierre de conexion DAO
+2018-03-06 14:20:10,973 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 65 - Finalizada Ejecución de DAO
+2018-03-06 14:20:10,973 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 14:21:07,163 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 36 - Iniciando Facade
+2018-03-06 14:21:10,654 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - Iniciando DAO
+2018-03-06 14:21:11,254 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 14:21:11,254 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - DATASOURCE: DS/SIGIC
+2018-03-06 14:21:11,254 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 14:21:11,254 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 14:21:11,255 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  PARAMETROS ENTRADA SP
+2018-03-06 14:21:11,255 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha final: 2000-01-01
+2018-03-06 14:21:11,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha Inicial: 1900-01-01
+2018-03-06 14:21:11,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Id Empresa: 0
+2018-03-06 14:21:11,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Luw: 
+2018-03-06 14:21:11,256 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Rut: 020112273922
+2018-03-06 14:21:11,257 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Number: 
+2018-03-06 14:21:11,257 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Status: 0
+2018-03-06 14:21:11,257 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Numero documento: 0
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  RESPUESTA BACKEND
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  CodigoEstado: 0
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  MensajeEstado: OK
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizado cierre de conexion DAO
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizada Ejecución de DAO
+2018-03-06 14:21:11,293 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 14:21:42,013 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 36 - Iniciando Facade
+2018-03-06 14:21:49,966 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - Iniciando DAO
+2018-03-06 14:21:50,440 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 14:21:50,440 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - DATASOURCE: DS/SIGIC
+2018-03-06 14:21:50,440 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 14:21:50,440 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  PARAMETROS ENTRADA SP
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha final: 2000-01-01
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Fecha Inicial: 1900-01-01
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Id Empresa: 0
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Luw: 
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Rut: 020112273922
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Number: 5148031
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Folio Status: 0
+2018-03-06 14:21:50,441 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 36 -  Numero documento: 0
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  RESPUESTA BACKEND
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  CodigoEstado: 0
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 -  MensajeEstado: OK
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizado cierre de conexion DAO
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 36 - Finalizada Ejecución de DAO
+2018-03-06 14:21:50,447 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 14:22:20,535 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 50 - Iniciando Facade
+2018-03-06 14:22:22,339 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - Iniciando DAO
+2018-03-06 14:22:22,993 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 14:22:22,993 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - DATASOURCE: DS/SIGIC
+2018-03-06 14:22:22,993 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 14:22:22,993 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  PARAMETROS ENTRADA SP
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha final: 2017-01-01
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha Inicial: 2000-01-01
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Id Empresa: 0
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Luw: 
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Rut: 020112273922
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Number: 
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Status: 0
+2018-03-06 14:22:22,994 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Numero documento: 0
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  RESPUESTA BACKEND
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  CodigoEstado: 0
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  MensajeEstado: OK
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizado cierre de conexion DAO
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizada Ejecución de DAO
+2018-03-06 14:22:23,001 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 50 - Iniciando Facade
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - Iniciando DAO
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - DATASOURCE: DS/SIGIC
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 15:21:30,144 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  PARAMETROS ENTRADA SP
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha final: 1900-01-01
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha Inicial: 1900-01-01
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Id Empresa: 1
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Luw: 
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Rut: 020112273922
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Number: 41480210
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Status: 1
+2018-03-06 15:21:30,145 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Numero documento: 0
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  RESPUESTA BACKEND
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  CodigoEstado: 0
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  MensajeEstado: OK
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizado cierre de conexion DAO
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizada Ejecución de DAO
+2018-03-06 15:21:30,178 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 15:22:26,324 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 50 - Iniciando Facade
+2018-03-06 15:22:29,549 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - Iniciando DAO
+2018-03-06 15:22:39,436 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 15:22:40,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - DATASOURCE: DS/SIGIC
+2018-03-06 15:22:40,955 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 15:22:41,247 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 15:22:42,103 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  PARAMETROS ENTRADA SP
+2018-03-06 15:22:42,669 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha final: 1900-01-01
+2018-03-06 15:22:42,843 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha Inicial: 1900-01-01
+2018-03-06 15:22:43,010 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Id Empresa: 1
+2018-03-06 15:22:43,380 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Luw: 
+2018-03-06 15:22:43,546 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Rut: 020112273922
+2018-03-06 15:22:43,730 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Number: 41480210
+2018-03-06 15:22:43,895 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Status: 1
+2018-03-06 15:22:44,062 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Numero documento: 0
+2018-03-06 15:26:11,838 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  RESPUESTA BACKEND
+2018-03-06 15:26:13,559 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  CodigoEstado: 0
+2018-03-06 15:26:14,393 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  MensajeEstado: OK
+2018-03-06 15:26:15,302 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizado cierre de conexion DAO
+2018-03-06 15:26:15,937 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizada Ejecución de DAO
+2018-03-06 15:31:44,735 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 15:32:00,764 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 68 - Iniciando Facade
+2018-03-06 15:32:03,223 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 - Iniciando DAO
+2018-03-06 15:32:04,065 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 - DATASOURCE: DS/SIGIC
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  PARAMETROS ENTRADA SP
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Fecha final: 1900-01-01
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Fecha Inicial: 1900-01-01
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Id Empresa: 1
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Luw: 
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Rut: 020112273922
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Folio Number: 41480210
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Folio Status: 1
+2018-03-06 15:32:04,066 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 68 -  Numero documento: 0
+2018-03-06 15:32:04,141 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 68 -  RESPUESTA BACKEND
+2018-03-06 15:32:04,141 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 68 -  CodigoEstado: 0
+2018-03-06 15:32:04,141 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 68 -  MensajeEstado: OK
+2018-03-06 15:32:04,142 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 68 - Finalizado cierre de conexion DAO
+2018-03-06 15:32:04,142 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 68 - Finalizada Ejecución de DAO
+2018-03-06 15:32:04,722 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 15:32:36,633 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 50 - Iniciando Facade
+2018-03-06 15:32:39,101 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - Iniciando DAO
+2018-03-06 15:32:40,430 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 15:32:40,733 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - DATASOURCE: DS/SIGIC
+2018-03-06 15:32:41,429 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 15:32:42,002 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 15:32:42,947 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  PARAMETROS ENTRADA SP
+2018-03-06 15:32:43,105 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha final: 1900-01-01
+2018-03-06 15:32:43,263 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Fecha Inicial: 1900-01-01
+2018-03-06 15:32:43,426 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Id Empresa: 1
+2018-03-06 15:32:43,589 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Luw: 
+2018-03-06 15:32:43,749 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Rut: 020112273922
+2018-03-06 15:32:43,912 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Number: 41480210
+2018-03-06 15:32:44,077 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Folio Status: 1
+2018-03-06 15:32:44,413 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 50 -  Numero documento: 0
+2018-03-06 15:36:15,274 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  RESPUESTA BACKEND
+2018-03-06 15:36:15,275 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  CodigoEstado: 0
+2018-03-06 15:36:15,275 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 -  MensajeEstado: OK
+2018-03-06 15:36:15,275 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizado cierre de conexion DAO
+2018-03-06 15:36:15,275 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 50 - Finalizada Ejecución de DAO
+2018-03-06 15:36:17,869 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 15:56:22,929 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 53 - Iniciando Facade
+2018-03-06 15:56:25,493 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - Iniciando DAO
+2018-03-06 15:56:26,167 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 15:56:26,168 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - DATASOURCE: DS/SIGIC
+2018-03-06 15:56:26,168 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 15:56:26,168 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  PARAMETROS ENTRADA SP
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha final: 1900-01-01
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Fecha Inicial: 1900-01-01
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Id Empresa: 1
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Luw: 
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Rut: 020112273922
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Number: 41480210
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Folio Status: 1
+2018-03-06 15:56:26,171 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 53 -  Numero documento: 0
+2018-03-06 15:56:26,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 -  RESPUESTA BACKEND
+2018-03-06 15:56:26,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 -  CodigoEstado: 0
+2018-03-06 15:56:26,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 -  MensajeEstado: OK
+2018-03-06 15:56:26,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizado cierre de conexion DAO
+2018-03-06 15:56:26,190 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizada Ejecución de DAO
+2018-03-06 15:56:26,639 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-06 16:05:35,274 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Thread ID: 66 - Iniciando Facade
+2018-03-06 16:05:37,914 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 - Iniciando DAO
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 - RUTA DATASOURCE: corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.datasource.CL
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 - DATASOURCE: DS/SIGIC
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 - RUTA SP : corp.sod.sigic.Clienteempresa.folioobtener.obtener.sp.param.spname.CL
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 - SP : {call sigic_cta.PCE_FolioObtener(?,?,?,?,?,?,?,?)}
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  PARAMETROS ENTRADA SP
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Fecha final: 1900-01-01
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Fecha Inicial: 1900-01-01
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Id Empresa: 1
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Luw: 
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Rut: 020112273922
+2018-03-06 16:05:38,904 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Folio Number: 414802110
+2018-03-06 16:05:38,906 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Folio Status: 1
+2018-03-06 16:05:38,906 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] --> Thread ID: 66 -  Numero documento: 0
+2018-03-06 16:05:38,922 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 66 -  RESPUESTA BACKEND
+2018-03-06 16:05:38,923 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 66 -  CodigoEstado: 0
+2018-03-06 16:05:38,923 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 66 -  MensajeEstado: OK
+2018-03-06 16:05:38,923 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 66 - Finalizado cierre de conexion DAO
+2018-03-06 16:05:38,923 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.dao.SIGICClienteEmpresaFolioObtenerObtenerDAOBean - [[DEBUG]] -->  Thread ID: 66 - Finalizada Ejecución de DAO
+2018-03-06 16:05:39,989 DEBUG corp.sod.sigic.Clienteempresa.folioobtener.obtener.model.ws.SigicClienteEmpresaFolioObtenerObtenerPtImpl - [[DEBUG]] --> Finalizando Facade

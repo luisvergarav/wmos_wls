@@ -1,0 +1,3 @@
+#Properties FALABELLA
+corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.sp.param.datasource=DS/TPD_CL_RTL_DESA1
+corp.sod.odbms.Despacho.dadrsbld_conf_rsv.preconfirmar.model.sp.param.spname={call hr.TRL_RECIBERUTEO(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}

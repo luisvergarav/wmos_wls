@@ -1,0 +1,395 @@
+2018-07-06 11:30:40,515 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-06 11:30:40,522 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 11:30:40,529 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 11:30:40,532 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 11:30:40,532 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 11:30:40,533 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 11:30:40,533 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 11:30:40,535 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[ERROR]] -->  Thread ID: 30 - Exception: Error de conexion
+2018-07-06 11:30:40,535 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 11:30:40,535 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 11:30:40,535 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 11:30:40,536 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->Error de conexion
+2018-07-06 11:30:40,537 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:00:15,384 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-06 16:00:15,411 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:00:15,418 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:00:15,425 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:00:15,425 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:00:15,425 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:00:15,425 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:00:15,486 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:00:15,486 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: StringValue
+2018-07-06 16:00:15,486 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: StringValue
+2018-07-06 16:00:15,486 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: StringValue
+2018-07-06 16:00:15,579 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[ERROR]] -->  Thread ID: 30 - Exception: [FMWGEN][SQLServer JDBC Driver][SQLServer]Error al convertir el tipo de datos nvarchar a numeric.
+2018-07-06 16:00:15,579 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:00:15,579 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:00:15,579 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:00:15,582 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->[FMWGEN][SQLServer JDBC Driver][SQLServer]Error al convertir el tipo de datos nvarchar a numeric.
+2018-07-06 16:00:15,582 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:01:28,049 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-07-06 16:01:28,051 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - Iniciando DAO
+2018-07-06 16:01:28,052 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:01:28,052 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:01:28,052 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:01:28,052 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:01:28,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  PARAMETROS ENTRADA SP
+2018-07-06 16:01:28,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:01:28,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:01:28,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_RUT: 1
+2018-07-06 16:01:29,020 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  RESPUESTA BACKEND
+2018-07-06 16:01:29,020 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  OUT_STATUS_CODE: 0
+2018-07-06 16:01:29,020 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:01:29,020 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-06 16:01:29,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-06 16:01:29,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizada Ejecución de DAO
+2018-07-06 16:01:29,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:06:50,590 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-06 16:06:50,594 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:06:50,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:06:50,610 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:06:50,610 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:06:50,610 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:06:50,610 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:06:50,612 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:06:50,612 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:06:50,612 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:06:50,612 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: 1
+2018-07-06 16:06:50,619 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-07-06 16:06:50,619 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_CODE: 0
+2018-07-06 16:06:50,620 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:06:50,620 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:06:50,620 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:06:50,620 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:06:50,620 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->null
+2018-07-06 16:06:50,620 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:06:59,826 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:06:59,827 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:06:59,827 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: 1
+2018-07-06 16:06:59,829 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-07-06 16:06:59,829 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_CODE: 0
+2018-07-06 16:06:59,829 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:06:59,829 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:06:59,829 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:06:59,830 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:06:59,830 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->null
+2018-07-06 16:06:59,830 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:07:02,306 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:07:02,307 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:07:02,307 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:07:02,307 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:07:02,307 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:07:02,307 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:07:02,308 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:07:02,308 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:07:02,308 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:07:02,308 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: 1
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_CODE: 0
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:07:02,311 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:07:02,312 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->null
+2018-07-06 16:07:02,312 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:09:50,696 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-06 16:09:50,697 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:09:50,704 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:09:50,707 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:09:50,707 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:09:50,707 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:09:50,707 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:09:50,708 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:09:50,708 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:09:50,708 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:09:50,709 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: 1
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_CODE: 0
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:09:50,712 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:09:50,713 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:15:07,374 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-07-06 16:15:07,375 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - Iniciando DAO
+2018-07-06 16:15:07,375 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:15:07,375 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:15:07,375 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:15:07,375 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:15:07,376 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  PARAMETROS ENTRADA SP
+2018-07-06 16:15:07,376 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:15:07,376 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-06 16:15:07,376 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 -  IN_RUT: 470631
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  RESPUESTA BACKEND
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  OUT_STATUS_CODE: 0
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizada Ejecución de DAO
+2018-07-06 16:15:07,604 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-06 16:24:14,550 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 30 - Iniciando Facade
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - Iniciando DAO
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-06 16:24:14,552 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  PARAMETROS ENTRADA SP
+2018-07-06 16:24:14,553 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_PROYECTO: 1
+2018-07-06 16:24:14,553 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_NUMERO_DOCUMENTO: 12
+2018-07-06 16:24:14,553 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 30 -  IN_RUT: 470631
+2018-07-06 16:24:14,575 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  RESPUESTA BACKEND
+2018-07-06 16:24:14,575 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_CODE: 0
+2018-07-06 16:24:14,575 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 -  OUT_STATUS_MSG: Sin resultados
+2018-07-06 16:24:14,576 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:24:14,576 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizado cierre de conexion DAO
+2018-07-06 16:24:14,576 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 30 - Finalizada Ejecución de DAO
+2018-07-06 16:24:14,576 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-08 22:26:57,032 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-07-08 22:26:57,034 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - Iniciando DAO
+2018-07-08 22:26:57,034 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-08 22:26:57,034 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-08 22:26:57,034 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-08 22:26:57,034 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-08 22:26:58,105 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[ERROR]] -->  Thread ID: 54 - Exception: Error de conexion
+2018-07-08 22:26:58,105 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-08 22:26:58,105 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-08 22:26:58,105 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizada Ejecución de DAO
+2018-07-08 22:26:58,239 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->Error de conexion
+2018-07-08 22:26:58,253 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-08 22:29:41,824 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-08 22:29:41,825 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 54 - Iniciando Facade
+2018-07-08 22:29:41,873 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - Iniciando DAO
+2018-07-08 22:29:41,906 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-08 22:29:41,906 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-08 22:29:41,906 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-08 22:29:41,906 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 54 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-08 22:29:41,922 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[ERROR]] -->  Thread ID: 54 - Exception: Error de conexion
+2018-07-08 22:29:41,922 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizado cierre de conexion DAO
+2018-07-08 22:29:41,922 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 54 - Finalizada Ejecución de DAO
+2018-07-08 22:29:41,923 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->Error de conexion
+2018-07-08 22:29:41,923 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 10:48:25,178 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 10:48:25,231 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 10:48:25,231 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 10:48:25,231 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 10:48:25,231 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 10:48:25,231 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 10:48:25,453 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 10:48:25,453 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 13
+2018-07-09 10:48:25,454 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 10:48:25,454 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 470631
+2018-07-09 10:48:25,827 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 10:48:25,827 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 10:48:25,827 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 10:48:26,026 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 10:48:26,026 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 10:48:26,134 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 10:49:22,527 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 10:49:22,574 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 10:49:22,574 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 544261
+2018-07-09 10:49:22,574 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 0
+2018-07-09 10:49:22,574 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 1-9
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 10:49:22,678 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 13
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 10:50:03,865 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 1-9
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 10:50:03,893 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 10:54:12,373 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 10:54:12,374 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 10:54:12,374 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 13
+2018-07-09 10:54:12,374 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 10:54:12,374 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 235157
+2018-07-09 10:54:12,585 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 10:54:12,586 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 10:54:12,586 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 10:54:12,586 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 10:54:12,586 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 10:54:12,586 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 13
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:02:18,729 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 470631
+2018-07-09 11:02:18,737 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 11:02:18,737 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 11:02:18,737 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:02:18,738 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 11:02:18,738 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 11:02:18,738 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:02:51,622 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 62 - Iniciando Facade
+2018-07-09 11:02:51,623 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - Iniciando DAO
+2018-07-09 11:02:51,623 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:02:51,623 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:02:51,623 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:02:51,623 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:02:51,645 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  PARAMETROS ENTRADA SP
+2018-07-09 11:02:51,645 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:02:51,645 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:02:51,645 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_RUT: 470631
+2018-07-09 11:02:51,701 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  RESPUESTA BACKEND
+2018-07-09 11:02:51,701 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  OUT_STATUS_CODE: 0
+2018-07-09 11:02:51,701 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:02:51,701 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 - Finalizado cierre de conexion DAO
+2018-07-09 11:02:51,702 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 - Finalizada Ejecución de DAO
+2018-07-09 11:02:51,702 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 62 - Iniciando Facade
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - Iniciando DAO
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:21:08,100 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:21:08,101 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  PARAMETROS ENTRADA SP
+2018-07-09 11:21:08,101 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:21:08,101 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:21:08,101 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 62 -  IN_RUT: 470631
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  RESPUESTA BACKEND
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  OUT_STATUS_CODE: 0
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 - Finalizado cierre de conexion DAO
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 62 - Finalizada Ejecución de DAO
+2018-07-09 11:21:08,111 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:22:58,376 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 60 - Iniciando Facade
+2018-07-09 11:22:58,377 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-07-09 11:23:20,366 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:23:21,696 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:23:23,209 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:23:23,773 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:23:25,850 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-07-09 11:23:26,446 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:23:26,846 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:23:27,223 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 60 -  IN_RUT: 470631
+2018-07-09 11:24:03,934 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  RESPUESTA BACKEND
+2018-07-09 11:24:03,934 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_CODE: 0
+2018-07-09 11:24:03,934 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:24:03,935 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-07-09 11:24:03,935 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-07-09 11:24:03,935 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:24:15,757 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 25 - Iniciando Facade
+2018-07-09 11:24:15,758 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 - Iniciando DAO
+2018-07-09 11:24:43,392 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:24:43,392 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:24:43,392 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:24:43,392 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:24:43,393 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 -  PARAMETROS ENTRADA SP
+2018-07-09 11:24:43,393 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:24:43,400 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:24:43,400 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 25 -  IN_RUT: 470631
+2018-07-09 11:24:43,408 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 25 -  RESPUESTA BACKEND
+2018-07-09 11:24:43,408 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 25 -  OUT_STATUS_CODE: 0
+2018-07-09 11:24:43,408 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 25 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:24:43,409 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizado cierre de conexion DAO
+2018-07-09 11:24:43,409 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 25 - Finalizada Ejecución de DAO
+2018-07-09 11:24:43,409 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:38:13,506 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 61 - Iniciando Facade
+2018-07-09 11:38:13,507 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - Iniciando DAO
+2018-07-09 11:38:14,153 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:38:14,153 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:38:14,153 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:38:14,153 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:38:14,154 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  PARAMETROS ENTRADA SP
+2018-07-09 11:38:14,154 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:38:14,154 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:38:14,154 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_RUT: 1-9
+2018-07-09 11:38:14,176 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  RESPUESTA BACKEND
+2018-07-09 11:38:14,177 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_CODE: 0
+2018-07-09 11:38:14,177 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_MSG: Sin resultados
+2018-07-09 11:38:14,177 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizado cierre de conexion DAO
+2018-07-09 11:38:14,177 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizada Ejecución de DAO
+2018-07-09 11:38:14,177 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:41:27,626 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 56 - Iniciando Facade
+2018-07-09 11:41:27,628 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - Iniciando DAO
+2018-07-09 11:41:28,438 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:41:28,438 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:41:28,438 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:41:28,438 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:41:28,439 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 -  PARAMETROS ENTRADA SP
+2018-07-09 11:41:28,439 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:41:28,439 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:41:28,439 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 -  IN_RUT: 13279534-7
+2018-07-09 11:41:28,891 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spnameservicios.CL
+2018-07-09 11:41:28,891 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 56 - SP : { call sp_lst_visor_servicio (?) }
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 56 -  RESPUESTA BACKEND
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 56 -  OUT_STATUS_CODE: 0
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 56 -  OUT_STATUS_MSG: OK
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizado cierre de conexion DAO
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 56 - Finalizada Ejecución de DAO
+2018-07-09 11:41:31,201 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->null
+2018-07-09 11:41:31,201 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:42:19,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 61 - Iniciando Facade
+2018-07-09 11:42:19,054 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - Iniciando DAO
+2018-07-09 11:42:21,348 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:42:23,948 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:42:25,654 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:42:26,284 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:42:31,605 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  PARAMETROS ENTRADA SP
+2018-07-09 11:42:32,216 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:42:32,618 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:42:32,904 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 -  IN_RUT: 13279534-7
+2018-07-09 11:44:34,643 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spnameservicios.CL
+2018-07-09 11:44:35,846 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 61 - SP : { call sp_lst_visor_servicio (?) }
+2018-07-09 11:46:49,181 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  RESPUESTA BACKEND
+2018-07-09 11:46:49,505 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_CODE: 0
+2018-07-09 11:46:49,767 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_MSG: OK
+2018-07-09 11:47:10,247 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizado cierre de conexion DAO
+2018-07-09 11:47:11,466 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizada Ejecución de DAO
+2018-07-09 11:49:19,759 ERROR cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[ERROR]] -->null
+2018-07-09 11:49:19,760 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-07-09 11:51:19,469 INFO  cl.sod.ssee.Cliente.proyectos.consultar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CL_SSEE_Cliente_ProyectosConsultar_v1_0_log4j.properties OK.
+2018-07-09 11:51:22,700 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Thread ID: 53 - Iniciando Facade
+2018-07-09 11:51:22,715 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - Iniciando DAO
+2018-07-09 11:51:24,008 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA DATASOURCE: cl.sod.ssee.Cliente.proyectos.consultar.sp.param.datasource.CL
+2018-07-09 11:51:24,008 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - DATASOURCE: DS/SOD_CL_SSEE_SSEEPROYCLTS_SSEEPROYCLTS_WWWSSEEPROYCLTS
+2018-07-09 11:51:24,008 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spname.CL
+2018-07-09 11:51:24,008 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : { call sp_lst_visor_proyecto (?,?,?) }
+2018-07-09 11:51:24,010 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 -  PARAMETROS ENTRADA SP
+2018-07-09 11:51:24,010 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 -  IN_NUMERO_PROYECTO: 14
+2018-07-09 11:51:24,010 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 -  IN_NUMERO_DOCUMENTO: 1
+2018-07-09 11:51:24,010 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 -  IN_RUT: 13279534-7
+2018-07-09 11:51:24,014 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : cl.sod.ssee.Cliente.proyectos.consultar.sp.param.spnameservicios.CL
+2018-07-09 11:51:24,014 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : { call sp_lst_visor_servicio (?) }
+2018-07-09 11:51:24,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  RESPUESTA BACKEND
+2018-07-09 11:51:24,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  OUT_STATUS_CODE: 0
+2018-07-09 11:51:24,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  OUT_STATUS_MSG: OK
+2018-07-09 11:51:24,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizado cierre de conexion DAO
+2018-07-09 11:51:24,021 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.dao.SSEEClienteProyectosConsultarDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizada Ejecución de DAO
+2018-07-09 11:51:24,892 DEBUG cl.sod.ssee.Cliente.proyectos.consultar.model.ws.SSEEClienteProyectosConsultarPtImpl - [[DEBUG]] --> Finalizando Facade

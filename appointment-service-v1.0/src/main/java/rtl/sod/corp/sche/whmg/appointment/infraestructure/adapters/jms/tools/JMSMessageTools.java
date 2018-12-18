@@ -24,11 +24,11 @@ import rtl.sod.corp.sche.whmg.appointment.infraestructure.adapters.jms.exception
 @Slf4j
 public class JMSMessageTools {
 
-	private static final RestAPPConfig	CONFIG				= new RestAPPConfig();
+	private  final RestAPPConfig	CONFIG				= new RestAPPConfig();
 
 
 
-	private static DestinationDefinition getServerDefition() {
+	private  DestinationDefinition getServerDefition() {
 		DestinationDefinition destination = new DestinationDefinition();
 		destination.setPath(CONFIG.getProperty(RestConstants.JMS_PATH));
 		destination.setUsername(CONFIG.getProperty(RestConstants.JMS_USER_NAME));
@@ -39,7 +39,7 @@ public class JMSMessageTools {
 
 
 
-	private static DestinationDefinition getTopicDefinition() {
+	private  DestinationDefinition getTopicDefinition() {
 		DestinationDefinition destination = getServerDefition();
 		destination.setFactoryName(CONFIG.getProperty(RestConstants.JMS_FACTORY));
         destination.setResourceName(CONFIG.getProperty(RestConstants.JMS_TOPIC));
@@ -50,7 +50,7 @@ public class JMSMessageTools {
 
 
 
-	public static void sendJMS(Map<String, String> pJmsHeaders, String pMessage) throws JmsException {
+	public  void sendJMS(Map<String, String> pJmsHeaders, String pMessage) throws JmsException {
 		JMSConnection connection = new JMSConnection();
 		try {
 			connection.init(getTopicDefinition());
@@ -92,7 +92,7 @@ public class JMSMessageTools {
 
 
 
-	public static int verfSendJMS(Map<String, String> pJmsHeaders, String pMessage) {
+	public  int verfSendJMS(Map<String, String> pJmsHeaders, String pMessage) {
 		int flag = 0;
 		try {
 			sendJMS(pJmsHeaders, pMessage);

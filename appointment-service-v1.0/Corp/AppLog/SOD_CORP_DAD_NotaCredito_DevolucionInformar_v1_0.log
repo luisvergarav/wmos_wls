@@ -1,0 +1,162 @@
+2018-03-26 14:56:45,509 INFO  corp.sod.dad.Notacredito.devolucion.informar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_DAD_NotaCredito_DevolucionInformar_v1_0_log4j.properties OK.
+2018-03-26 14:56:50,422 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 - Iniciando DAO
+2018-03-26 14:56:57,824 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA DATASOURCE: corp.sod.dad.Notacredito.devolucion.informar.sp.param.datasource.CL
+2018-03-26 14:56:58,621 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 - DATASOURCE: DS/CORP_CL_DAD_DADMXTS_MDWDADMXTS
+2018-03-26 14:57:12,012 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 - RUTA SP : corp.sod.dad.Notacredito.devolucion.informar.sp.param.spname.CL
+2018-03-26 14:57:13,005 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 - SP : {call DADIMPORT.INFORMAR_DEVOLUCION(?,?,?)}
+2018-03-26 14:57:15,901 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 -  PARAMETROS ENTRADA SP
+2018-03-26 14:57:18,132 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 60 -  XML_IN: 
+<ns0:body xmlns="http://mdwcorp.falabella.com/SOD/CORP/WLS/schema/DAD/NotaCredito/Devolucion/Informar/Req/IMPL/v2018.03" xmlns:ns0="http://mdwcorp.falabella.com/SOD/CORP/WLS/schema/DAD/NotaCredito/Devolucion/Informar/Req/IMPL/v2017.12">
+   <pais>StringValue</pais>
+   <numeroTienda>23</numeroTienda>
+   <IdTerminal>StringValue</IdTerminal>
+   <ordenVenta>StringValue</ordenVenta>
+   <numeroDocumentoVenta>StringValue</numeroDocumentoVenta>
+   <numeroDocumentoDevolucion>StringValue</numeroDocumentoDevolucion>
+   <montoDocumentoDevolucion>10.23</montoDocumentoDevolucion>
+   <motivoDevolucion>StringValue</motivoDevolucion>
+   <items>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+   </items>
+   <adicionales>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+   </adicionales>
+</ns0:body>
+
+2018-03-26 14:58:39,482 ERROR corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[ERROR]] --> LOB cerrado
+2018-03-26 14:59:34,905 ERROR corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[ERROR]] -->  Thread ID: 60 - Exception: ORA-06550: line 1, column 17:
+PLS-00302: component 'INFORMAR_DEVOLUCION' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+2018-03-26 14:59:34,908 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizado cierre de conexion DAO
+2018-03-26 14:59:34,908 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 60 - Finalizada Ejecución de DAO
+2018-03-26 14:59:34,909 ERROR corp.sod.dad.Notacredito.devolucion.informar.model.ws.DadNotaCreditoDevolucionInformarPtImpl - [[ERROR]] -->ORA-06550: line 1, column 17:
+PLS-00302: component 'INFORMAR_DEVOLUCION' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+2018-03-26 14:59:34,910 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.ws.DadNotaCreditoDevolucionInformarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-26 15:03:52,031 INFO  corp.sod.dad.Notacredito.devolucion.informar.model.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/SOD_CORP_DAD_NotaCredito_DevolucionInformar_v1_0_log4j.properties OK.
+2018-03-26 15:03:52,050 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 - Iniciando DAO
+2018-03-26 15:03:52,053 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA DATASOURCE: corp.sod.dad.Notacredito.devolucion.informar.sp.param.datasource.CL
+2018-03-26 15:03:52,053 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 - DATASOURCE: DS/CORP_CL_DAD_DADMXTS_MDWDADMXTS
+2018-03-26 15:03:52,053 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 - RUTA SP : corp.sod.dad.Notacredito.devolucion.informar.sp.param.spname.CL
+2018-03-26 15:03:52,053 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 - SP : {call DADIMPORT.INFORMAR_DEVOLUCION(?,?,?)}
+2018-03-26 15:03:52,055 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 -  PARAMETROS ENTRADA SP
+2018-03-26 15:03:52,055 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 61 -  XML_IN: 
+<body>
+   <pais>StringValue</pais>
+   <numeroTienda>23</numeroTienda>
+   <IdTerminal>StringValue</IdTerminal>
+   <ordenVenta>StringValue</ordenVenta>
+   <numeroDocumentoVenta>StringValue</numeroDocumentoVenta>
+   <numeroDocumentoDevolucion>StringValue</numeroDocumentoDevolucion>
+   <montoDocumentoDevolucion>10.23</montoDocumentoDevolucion>
+   <motivoDevolucion>StringValue</motivoDevolucion>
+   <items>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+   </items>
+   <adicionales>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+   </adicionales>
+</body>
+
+2018-03-26 15:03:52,057 ERROR corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[ERROR]] --> LOB cerrado
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  RESPUESTA BACKEND
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_CODE: 1
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 61 -  OUT_STATUS_MSG: Mensaje
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizado cierre de conexion DAO
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 61 - Finalizada Ejecución de DAO
+2018-03-26 15:03:52,324 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.ws.DadNotaCreditoDevolucionInformarPtImpl - [[DEBUG]] --> Finalizando Facade
+2018-03-26 15:10:14,565 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 - Iniciando DAO
+2018-03-26 15:10:14,565 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA DATASOURCE: corp.sod.dad.Notacredito.devolucion.informar.sp.param.datasource.CL
+2018-03-26 15:10:14,565 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 - DATASOURCE: DS/CORP_CL_DAD_DADMXTS_MDWDADMXTS
+2018-03-26 15:10:14,565 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 - RUTA SP : corp.sod.dad.Notacredito.devolucion.informar.sp.param.spname.CL
+2018-03-26 15:10:14,566 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 - SP : {call DADIMPORT.INFORMAR_DEVOLUCION(?,?,?)}
+2018-03-26 15:10:14,566 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 -  PARAMETROS ENTRADA SP
+2018-03-26 15:10:14,566 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] --> Thread ID: 53 -  XML_IN: 
+<body>
+   <pais>StringValue</pais>
+   <numeroTienda>23111</numeroTienda>
+   <IdTerminal>StringValue</IdTerminal>
+   <ordenVenta>StringValue</ordenVenta>
+   <numeroDocumentoVenta>StringValue</numeroDocumentoVenta>
+   <numeroDocumentoDevolucion>StringValue</numeroDocumentoDevolucion>
+   <montoDocumentoDevolucion>10.23</montoDocumentoDevolucion>
+   <motivoDevolucion>StringValue</motivoDevolucion>
+   <items>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+      <item>
+         <numeroLineaItem>23</numeroLineaItem>
+         <codigo>StringValue</codigo>
+         <cantidad>10.23</cantidad>
+         <tipoMoneda>23</tipoMoneda>
+         <montoItem>10.23</montoItem>
+      </item>
+   </items>
+   <adicionales>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+      <adicional>
+         <campo>StringValue</campo>
+         <valor>StringValue</valor>
+      </adicional>
+   </adicionales>
+</body>
+
+2018-03-26 15:10:14,567 ERROR corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[ERROR]] --> LOB cerrado
+2018-03-26 15:10:14,591 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  RESPUESTA BACKEND
+2018-03-26 15:10:14,591 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  OUT_STATUS_CODE: 1
+2018-03-26 15:10:14,591 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 53 -  OUT_STATUS_MSG: Mensaje
+2018-03-26 15:10:14,592 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizado cierre de conexion DAO
+2018-03-26 15:10:14,592 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.dao.DADNotaCreditoDevolucionInformarDAOBean - [[DEBUG]] -->  Thread ID: 53 - Finalizada Ejecución de DAO
+2018-03-26 15:10:14,592 DEBUG corp.sod.dad.Notacredito.devolucion.informar.model.ws.DadNotaCreditoDevolucionInformarPtImpl - [[DEBUG]] --> Finalizando Facade

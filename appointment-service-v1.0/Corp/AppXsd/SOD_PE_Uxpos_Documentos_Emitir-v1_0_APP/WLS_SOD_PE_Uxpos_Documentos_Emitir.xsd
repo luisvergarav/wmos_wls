@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:req="http://mdwcorp.falabella.com/SOD/CORP/WLS/schema/Uxpos/Cliente/Documentos/Emitir/Request/v2018.02"
+        targetNamespace="http://mdwcorp.falabella.com/SOD/CORP/WLS/schema/Uxpos/Cliente/Documentos/Emitir/Request/v2018.02"
+        elementFormDefault="qualified">
+    <xsd:complexType name="ClientService_TYPE">
+        <xsd:sequence>
+            <xsd:element name="country" type="req:Country_TYPE"/>
+            <xsd:element name="commerce" type="req:Commerce_TYPE"/>
+            <xsd:element name="channel">
+                <xsd:simpleType>
+                    <xsd:restriction base="req:Channel_TYPE"/>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="storeId" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="terminalId" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="date" type="req:RequiredDate" minOccurs="0"/>
+            <xsd:element name="hour" type="req:RequiredTime" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:simpleType name="Country_TYPE">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="AR"/>
+            <xsd:enumeration value="BR"/>
+            <xsd:enumeration value="CL"/>
+            <xsd:enumeration value="CO"/>
+            <xsd:enumeration value="PE"/>
+            <xsd:enumeration value="UY"/>
+            <xsd:enumeration value="MX"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="Commerce_TYPE">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Banco"/>
+            <xsd:enumeration value="CMR"/>
+            <xsd:enumeration value="Falabella"/>
+            <xsd:enumeration value="Seguros"/>
+            <xsd:enumeration value="Sodimac"/>
+            <xsd:enumeration value="Tottus"/>
+            <xsd:enumeration value="Movil"/>
+            <xsd:enumeration value="Viajes"/>
+            <xsd:enumeration value="Falabella Movil"/>
+            <xsd:enumeration value="CrateAndBarrel"/>
+            <xsd:enumeration value="Telco CMR"/>
+            <xsd:enumeration value="Connect"/>
+            <xsd:enumeration value="Web Movil Falabella"/>
+            <xsd:enumeration value="BackOffice"/>
+            <!-- Falabella Movil Deprecado -->
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="Channel_TYPE">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="ASL+"/>
+            <xsd:enumeration value="B2B"/>
+            <xsd:enumeration value="B2C"/>
+            <xsd:enumeration value="Cardif"/>
+            <xsd:enumeration value="Comercio Adherido"/>
+            <xsd:enumeration value="CRM"/>
+            <xsd:enumeration value="Fono Compras"/>
+            <xsd:enumeration value="Homy"/>
+            <xsd:enumeration value="IVR"/>
+            <xsd:enumeration value="Kiosco"/>
+            <xsd:enumeration value="Mobile"/>
+            <xsd:enumeration value="Mobile-APP"/>
+            <xsd:enumeration value="Mobile-WEB"/>
+            <xsd:enumeration value="Portal"/>
+            <xsd:enumeration value="Presencial"/>
+            <xsd:enumeration value="POS"/>
+            <xsd:enumeration value="Punto de Venta"/>
+            <xsd:enumeration value="SIX"/>
+            <xsd:enumeration value="UXPOS"/>
+            <xsd:enumeration value="Venta-Empresa"/>
+            <xsd:enumeration value="Web"/>
+            <xsd:enumeration value="Web CMR"/>
+            <xsd:enumeration value="Web-PAC"/>
+            <xsd:enumeration value="USSD"/>
+            <xsd:enumeration value="Punto de Venta"/>
+            <xsd:enumeration value="DIM"/>
+            <xsd:enumeration value="PMM"/>
+            <xsd:enumeration value="WMOS"/>
+            <xsd:enumeration value="SRX"/>
+            <xsd:enumeration value="ATG"/>
+            <xsd:enumeration value="OMS"/>
+            <xsd:enumeration value="TRL"/>
+            <xsd:enumeration value="SAB"/>
+            <xsd:enumeration value="WEB_PORTAL"/>
+            <xsd:enumeration value="BATCH"/>
+            <xsd:enumeration value="App-GSVendedor"/>
+            <xsd:enumeration value="QuickPay"/>
+            <xsd:enumeration value="DAD"/>
+            <xsd:enumeration value="SLI"/>
+            <xsd:enumeration value="ATM"/>
+            <xsd:enumeration value="PCOM"/>
+            <xsd:enumeration value="CAJA"/>
+            <xsd:enumeration value="SFWEB"/>
+            <xsd:enumeration value="Rector"/>
+            <xsd:enumeration value="CYBER"/>
+            <xsd:enumeration value="PIM"/>
+            <xsd:enumeration value="MAEMED"/>
+            <xsd:enumeration value="ODBMS"/>
+            <xsd:enumeration value="SPR"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="NonRequiredStringDateTime">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-1]?[0-9][/][0-3]?[0-9][/]([0-9][0-9])?[0-9]{2} [0-2]?[0-9]:[0-5][0-9]"/>
+            <xsd:pattern value="[0-3]?[0-9][/][0-1]?[0-9][/]([0-9][0-9])?[0-9]{2} [0-2]?[0-9]:[0-5][0-9]"/>
+            <xsd:pattern value="[0-3]?[0-9][.][0-1]?[0-9][.]([0-9][0-9])?[0-9]{2} [0-2]?[0-9]:[0-5][0-9]"/>
+            <xsd:pattern value="([0-9][0-9])?[0-9]{2}[\-][0-1]?[0-9][\-][0-3]?[0-9] [0-2]?[0-9]:[0-5][0-9]"/>
+            <xsd:pattern value=""/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+      <xsd:complexType name="ClienteDocumentosEmitirProdReq_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="cabecera" maxOccurs="1" minOccurs="1" type="req:Cabecera_TYPE"/>
+                            <xsd:element name="detalles" maxOccurs="1" minOccurs="0" type="req:Detalles_TYPE"/>
+                            <xsd:element name="formasPago" maxOccurs="1" minOccurs="0" type="req:FormasPago_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="Cabecera_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="tipoAccion" maxOccurs="1" minOccurs="1" type="req:TipoAccion_TYPE"/>
+                            <xsd:element name="idSolicitudVE" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="pais" maxOccurs="1" minOccurs="1" type="req:Pais_TYPE"/>
+                            <xsd:element name="sucursal" maxOccurs="1" minOccurs="1" type="xsd:integer"/>
+                            <xsd:element name="orden" maxOccurs="1" minOccurs="1" type="req:Orden_TYPE"/>
+                            <xsd:element name="promociones" maxOccurs="1" minOccurs="0"
+                                         type="req:PromocionesOrden_TYPE"/>
+                            <xsd:element name="datosCliente" maxOccurs="1" minOccurs="1" type="req:DatosCliente_TYPE"/>
+                            <xsd:element name="localizacionCabecera" maxOccurs="1" minOccurs="1"
+                                         type="req:LocalizacionCabecera_TYPE"/>
+                            <xsd:element name="datosAdicionalesCabecera" maxOccurs="1" minOccurs="0"
+                                         type="req:DatosAdicionalesCabecera_TYPE"/>
+                            <xsd:element name="cargosDescuento" maxOccurs="1" minOccurs="0"
+                                         type="req:CargosDescuento_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="TipoAccion_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="3"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Pais_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="2"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="DatosAdicionalesCabecera_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="datoAdicionalCabecera" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:DatoAdicionalCabecera_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="CargosDescuento_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="cargoDescuento" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:CargoDescuento_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="CargoDescuento_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="tipoCargoDescuento" maxOccurs="1" minOccurs="0"
+                                         type="req:TipoCargoDescuento_TYPE"/>
+                            <xsd:element name="codigoCargoDescuento" maxOccurs="1" minOccurs="0"
+                                         type="req:CodigoCargoDescuento_TYPE"/>
+                            <xsd:element name="descripcionCargoDescuento" maxOccurs="1" minOccurs="0"
+                                         type="req:DescripcionCargoDescuento_TYPE"/>
+                            <xsd:element name="montoCargoDescuento" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="TipoCargoDescuento_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="1"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="CodigoCargoDescuento_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="10"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="DescripcionCargoDescuento_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="DatoAdicionalCabecera_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="campo" maxOccurs="1" minOccurs="0" type="req:Campo_TYPE"/>
+                            <xsd:element name="valor" maxOccurs="1" minOccurs="0" type="req:Valor_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="Campo_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Valor_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="FormasPago_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="formaPago" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:FormaPago_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="DatosAdicionalesFormaPago_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="datoAdicionalFormaPago" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:DatoAdicionalFormaPago_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="DatoAdicionalFormaPago_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="campo" maxOccurs="1" minOccurs="0" type="req:CampoFormaPago_TYPE"/>
+                            <xsd:element name="valor" maxOccurs="1" minOccurs="0" type="req:ValorFormaPago_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="ValorFormaPago_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="CampoFormaPago_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="LocalizacionFormaPago_TYPE">
+                        <xsd:sequence>
+                            <xsd:choice>
+                               
+                              
+                            </xsd:choice>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionFormaPagoArg_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="recargoFinanciero" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="numOperacion" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="codMarcaTarjeta" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="marcaTarjeta" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionFormaPagoUru_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="recargoFinanciero" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="numOperacion" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="codMarcaTarjeta" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="marcaTarjeta" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="FormaPago_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="tipoFormaPago" maxOccurs="1" minOccurs="1"
+                                         type="req:TipoFormaPago_TYPE"/>
+                            <xsd:element name="tipoTarjeta" maxOccurs="1" minOccurs="0" type="req:TipoTarjeta_TYPE"/>
+                            <xsd:element name="numeroMedioPago" maxOccurs="1" minOccurs="0"
+                                         type="req:NumeroMedioPago_TYPE"/>
+                            <xsd:element name="numeroUnico" maxOccurs="1" minOccurs="0" type="req:NumeroUnico_TYPE"/>
+                            <xsd:element name="monto" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="numeroCuotas" maxOccurs="1" minOccurs="0" type="xsd:integer"/>
+                            <xsd:element name="codigoAutorizacion" maxOccurs="1" minOccurs="0"
+                                         type="req:CodigoAutorizacion_TYPE"/>
+                            <xsd:element name="tipoMoneda" maxOccurs="1" minOccurs="0" type="req:TipoMoneda_TYPE"/>
+                            <xsd:element name="plazoPago" maxOccurs="1" minOccurs="0" type="xsd:date"/>
+                            <xsd:element name="pasarela" maxOccurs="1" minOccurs="1" type="req:Pasarela_TYPE"/>
+                            <xsd:element name="montoCuota" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+                            <xsd:element name="codigoComercio" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+                            <xsd:element name="tipoCuota" maxOccurs="1" minOccurs="0" type="req:TipoCuota_TYPE"/>
+                            <xsd:element name="tipoIdCliente" maxOccurs="1" minOccurs="0"
+                                         type="req:TipoIdCliente_TYPE"/>
+                            <xsd:element name="idCliente" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+                            <xsd:element name="localizacionFormaPago" maxOccurs="1" minOccurs="0"
+                                         type="req:LocalizacionFormaPago_TYPE"/>
+                            <xsd:element name="datosAdicionalesFormaPago" maxOccurs="1" minOccurs="0"
+                                         type="req:DatosAdicionalesFormaPago_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="TipoCuota_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="10"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Pasarela_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="2"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="CodigoAutorizacion_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="TipoTarjeta_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="NumeroMedioPago_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="16"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="NumeroUnico_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="TipoFormaPago_TYPE">
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:minInclusive value="1"/>
+                            <xsd:maxInclusive value="10"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="TipoMoneda_TYPE">
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:minInclusive value="1"/>
+                            <xsd:maxInclusive value="5"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="Detalles_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="detalle" maxOccurs="unbounded" minOccurs="0" type="req:Detalle_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="Detalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="numeroLinea" maxOccurs="1" minOccurs="1" type="xsd:integer"/>
+                            <xsd:element name="codigo" maxOccurs="1" minOccurs="1" type="req:Codigo_TYPE"/>
+                            <xsd:element name="cantidadProducto" maxOccurs="1" minOccurs="1" type="xsd:integer"/>
+                            <xsd:element name="precio" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="tipoMoneda" maxOccurs="1" minOccurs="0" type="xsd:integer"/>
+                            <xsd:element name="descripcion" maxOccurs="1" minOccurs="0" type="req:Descripcion_TYPE"/>
+                            <xsd:element name="unidadMedida" maxOccurs="1" minOccurs="0" type="req:UnidadMedida_TYPE"/>
+                            <xsd:element name="idProveedor" maxOccurs="1" minOccurs="0" type="req:IdProveedor_TYPE"/>
+                            <xsd:element name="precioSubTotal" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="promociones" maxOccurs="1" minOccurs="0"
+                                         type="req:PromocionesDetalle_TYPE"/>
+                            <xsd:element name="localizacionDetalle" maxOccurs="1" minOccurs="0"
+                                         type="req:LocalizacionDetalle_TYPE"/>
+                            <xsd:element name="datosAdicionalesDetalle" maxOccurs="1" minOccurs="0"
+                                         type="req:DatosAdicionalesDetalle_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="IdProveedor_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="15"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="UnidadMedida_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="2"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Descripcion_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Codigo_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="10"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="Orden_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="ordenVenta" maxOccurs="1" minOccurs="1" type="req:OrdenVenta_TYPE"/>
+                            <xsd:element name="codigoVendedor" maxOccurs="1" minOccurs="0"
+                                         type="req:CodigoVendedor_TYPE"/>
+                            <xsd:element name="tipoDocumentoVenta" maxOccurs="1" minOccurs="1"
+                                         type="req:TipoDocumentoVenta_TYPE"/>
+                            <xsd:element name="numeroDocumentoOriginal" maxOccurs="1" minOccurs="0"
+                                         type="req:NumeroDocumentoOriginal_TYPE"/>
+                            <xsd:element name="codigoCausal" maxOccurs="1" minOccurs="0" type="xsd:integer"/>
+                            <xsd:element name="totalNeto" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+                            <xsd:element name="totalBruto" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="ventaPersonal" maxOccurs="1" minOccurs="1" type="xsd:integer"/>
+                            <xsd:element name="afectaCuentaCorriente" maxOccurs="1" minOccurs="0"
+                                         type="req:AfectaCuentaCorriente_TYPE"/>
+                            <xsd:element name="afectaCredito" maxOccurs="1" minOccurs="0"
+                                         type="req:AfectaCredito_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="OrdenVenta_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="CodigoVendedor_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="NumeroDocumentoOriginal_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="AfectaCuentaCorriente_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="1"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="AfectaCredito_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="1"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="TipoDocumentoVenta_TYPE">
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:minInclusive value="1"/>
+                            <xsd:maxInclusive value="10"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="PromocionesOrden_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="promocion" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:PromocionOrden_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="PromocionOrden_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="codigoPromocion" maxOccurs="1" minOccurs="0"
+                                         type="req:CodigoPromocion_TYPE"/>
+                            <xsd:element name="descripcionPromocion" maxOccurs="1" minOccurs="0"
+                                         type="req:DescripcionPromocion_TYPE"/>
+                            <xsd:element name="descuentoPromocion" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="CodigoPromocion_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="DescripcionPromocion_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="40"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="PromocionesDetalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="promocion" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:PromocionDetalle_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="PromocionDetalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="codigoPromocion" maxOccurs="1" minOccurs="0"
+                                         type="req:CodigoPromocionDetalle_TYPE"/>
+                            <xsd:element name="descripcionPromocion" maxOccurs="1" minOccurs="0"
+                                         type="req:DescripcionPromocionDetalle_TYPE"/>
+                            <xsd:element name="descuentoPromocion" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="CodigoPromocionDetalle_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="DescripcionPromocionDetalle_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="40"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="LocalizacionDetalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:choice>
+                             
+                            </xsd:choice>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionDetalleUru_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="valorDolar" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="DatosAdicionalesDetalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="datoAdicionalDetalle" maxOccurs="unbounded" minOccurs="0"
+                                         type="req:DatoAdicionalDetalle_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="DatoAdicionalDetalle_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="campo" maxOccurs="1" minOccurs="0" type="req:CampoDetalle_TYPE"/>
+                            <xsd:element name="valor" maxOccurs="1" minOccurs="0" type="req:ValorDetalle_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="CampoDetalle_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="ValorDetalle_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="DatosCliente_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="tipoIdCliente" maxOccurs="1" minOccurs="1"
+                                         type="req:TipoIdCliente_TYPE"/>
+                            <xsd:element name="idCliente" maxOccurs="1" minOccurs="1" type="req:IdCliente_TYPE"/>
+                            <xsd:element name="nombre" maxOccurs="1" minOccurs="1" type="req:Nombre_TYPE"/>
+                            <xsd:element name="mail" maxOccurs="1" minOccurs="1" type="req:Mail_TYPE"/>
+                            <xsd:element name="telefono" maxOccurs="1" minOccurs="0" type="req:Telefono_TYPE"/>
+                            <xsd:element name="paisCliente" maxOccurs="1" minOccurs="1" type="req:PaisCliente_TYPE"/>
+                            <xsd:element name="localizacionDatosCliente" maxOccurs="1" minOccurs="1"
+                                         type="req:LocalizacionDatosCliente_TYPE"/>
+                            <xsd:element name="direccion" maxOccurs="1" minOccurs="1" type="req:Direccion_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="PaisCliente_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="IdCliente_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="254"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Mail_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="70"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Telefono_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="30"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Nombre_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="TipoIdCliente_TYPE">
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:minInclusive value="1"/>
+                            <xsd:maxInclusive value="12"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="LocalizacionDatosCliente_TYPE">
+                        <xsd:sequence>
+                            <xsd:choice>
+                               
+                            </xsd:choice>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionDatosClienteArg_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="condicionImpositiva" maxOccurs="1" minOccurs="1"
+                                         type="req:CondicionImpositiva_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="CondicionImpositiva_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="C"/>
+                            <xsd:enumeration value="I"/>
+                            <xsd:enumeration value="M"/>
+                            <xsd:enumeration value="N"/>
+                            <xsd:enumeration value="E"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="Direccion_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="nombreCalle" maxOccurs="1" minOccurs="1" type="req:NombreCalle_TYPE"/>
+                            <xsd:element name="codigoPostal" maxOccurs="1" minOccurs="0" type="req:CodigoPostal_TYPE"/>
+                            <xsd:element name="subAdmArea" maxOccurs="1" minOccurs="0" type="req:SubAdmArea_TYPE"/>
+                            <xsd:element name="localidad" maxOccurs="1" minOccurs="0" type="req:Localidad_TYPE"/>
+                            <xsd:element name="admArea" maxOccurs="1" minOccurs="0" type="req:AdmArea_TYPE"/>
+                            <xsd:element name="localizacionDireccionCliente" maxOccurs="1" minOccurs="1"
+                                         type="req:LocalizacionDireccionCliente_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:simpleType name="CodigoPostal_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="30"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="AdmArea_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="Localidad_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="SubAdmArea_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType name="NombreCalle_TYPE">
+                        <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="100"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:complexType name="LocalizacionDireccionCliente_TYPE">
+                        <xsd:sequence>
+                            <xsd:choice>
+                              
+                            </xsd:choice>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionDireccionClienteUru_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="numeroDepartamento" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="numeroCalle" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionDireccionClienteArg_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="numeroDepartamento" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                            <xsd:element name="numeroCalle" maxOccurs="1" minOccurs="1" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionCabecera_TYPE">
+                        <xsd:sequence>
+                            <xsd:choice>
+                             
+                            </xsd:choice>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                    <xsd:complexType name="LocalizacionCabeceraUru_TYPE">
+                        <xsd:sequence>
+                            <xsd:element name="tasaVendendorDelDia" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                            <xsd:element name="tasaCompradorDelDia" maxOccurs="1" minOccurs="1" type="xsd:decimal"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+
+    <xsd:element name="ClienteDocumentosEmitirRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="HeaderProducer">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="ClientService" type="req:ClientService_TYPE"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="BodyProducer">
+                <xsd:complexType>
+                    <xsd:sequence>
+                          <xsd:element name="ClienteDocumentosEmitirProdReq" type="req:ClienteDocumentosEmitirProdReq_TYPE"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+                </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="RequiredDate">
+        <xsd:restriction base="xsd:date">
+            <xsd:pattern value="([0-9][0-9])?[0-9]{2}[\-][0-1]?[0-9][\-][0-3]?[0-9]"/>
+            <!-- (yy)yy-(M)M-(d)d -->
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="RequiredTime">
+        <xsd:restriction base="xsd:time">
+            <xsd:pattern value="[0-2]?[0-9]:[0-5][0-9]:[0-5][0-9]"/>
+            <!-- (h)h:mm:ss -->
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="RequiredDateTime">
+        <xsd:restriction base="xsd:dateTime">
+            <xsd:pattern value="([0-9][0-9])?[0-9]{2}[\-][0-1]?[0-9][\-][0-3]?[0-9][T][0-2]?[0-9]:[0-5][0-9]:[0-5][0-9]"/>
+            <!-- (yy)yy-(M)M-(d)d (h)h:mm:ss -->
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
+
+

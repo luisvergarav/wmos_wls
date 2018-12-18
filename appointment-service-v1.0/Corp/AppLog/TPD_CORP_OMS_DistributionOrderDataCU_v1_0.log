@@ -1,0 +1,2 @@
+2018-01-22 15:43:37,038 INFO  corp.tpd.oms.distribution.order.datacu.model.util.properties.Log4jLoadProperties - Carga archivo de propiedades Corp/AppProperties/TPD_CORP_OMS_DistributionOrderDataCU_v1_0_log4j.properties OK.
+2018-01-22 15:43:37,148 ERROR corp.tpd.oms.distribution.order.datacu.model.business.DistributionOrderDataCUBean - [sendBeanInfoToError - PE] Unable to resolve 'jms.fabric.queue.TPD_PE_OMS_IN'. Resolved 'jms.fabric.queue'
